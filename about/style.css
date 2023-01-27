@@ -5,19 +5,10 @@ body{
     padding: 50px;
 }
 
-h1,p{
+p{
     color:rgb(255, 177, 149);
 }
 
-
-.columns {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .column {
-    flex: 33%;
-  }
+img {
+    width: 200px;
+}
