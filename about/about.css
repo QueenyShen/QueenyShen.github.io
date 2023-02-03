@@ -1,8 +1,12 @@
 body{
     background-color:#BADCFE;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 100px;
+    margin: 50px;
     padding: 50px;
+}
+
+h1{ color:#FEFFEF;
+
 }
 
 p{
