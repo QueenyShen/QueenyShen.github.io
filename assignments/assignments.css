@@ -1,14 +1,10 @@
 body{
-    background-color: aquamarine;
+    background-color:#BADCFE;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 100px;
     padding: 50px;
 }
 
-p{
-    color:rgb(255, 177, 149);
-}
-
-img {
-    width: 200px;
+h2{
+    color:#FEFFEF;
 }

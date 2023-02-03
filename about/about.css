@@ -1,0 +1,15 @@
+body{
+    background-color:#BADCFE;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 100px;
+    padding: 50px;
+}
+
+p{
+    color:#FEFFEF;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+img {
+    width: 200px;
+}
