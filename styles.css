@@ -1,8 +1,7 @@
 body{
     background-color:#BADCFE;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    margin: 50px;
-    padding: 50px;
+    margin:0;
 }
 
 h1,a{
@@ -10,16 +9,16 @@ h1,a{
 }
 
 
-.columns {
+/* .columns {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     margin: 50px;
     font-family: 'Courier New', Courier, monospace;
-  }
+  } */
   
-  .column1 {
+  /* .column1 {
     flex: 33%;
      border-style:solid;
      border-color:#FEFFEF;
@@ -38,4 +37,86 @@ h1,a{
     border-style:solid;
     border-color:#FEFFEF;
     background-color:#114da5;
+  } */
+
+  .column1{
+  position:relative;
+  width: 150px;
+  height: 100vh;
+  background-color: blue;
+  display:block;
+  float:left;
   }
+
+.column2{
+  position:relative;
+  width: 150px;
+  height: 100vh;
+  background-color: green;
+  display:block;
+    float:left;
+  }
+
+.column3{
+   position:relative;
+   width: 150px;
+   height: 100vh;
+  background-color: pink;
+  display:block;
+  float:left;
+}
+
+.column4{
+  position:relative;
+  width: 150px;
+  height: 100vh;
+  background-color: red;
+  display:block;
+    float:left;
+  }
+  
+.column5{
+  position:relative;
+  width: 150px;
+  height: 100vh;
+  background-color: yellow;
+  display:block;
+    float:left;
+  }
+  
+.column6{
+  position:relative;
+  width: 150px;
+  height: 100vh;
+  background-color: white;
+  display:block;
+    float:left;
+  }
+
+.column7{
+  position:relative;
+  width: 150px;
+  height: 100vh;
+  background-color: purple;
+  display:block;
+    float:left;
+  }
+
+.column8{
+  position:relative;
+  width: 150px;
+  height: 100vh;
+  background-color: blueviolet;
+  display:block;
+    float:left;
+  }
+  
+.column9{
+  position:relative;
+  width: 240px;
+  height: 100vh;
+  background-color: orange;
+  display:block;
+    float:left;
+  }
+  
