@@ -61,17 +61,17 @@ p{
   background-color: #a5c64a;
   display:block;
   float:left;
-  filter: brightness(50%);
+  filter: brightness(30%);
   transition: transform .3s;
   z-index:20;
-  filter:grayscale(100%)
+
   }
   
 
 .column1:hover{
   filter: brightness(100%);
   transform: scale(1.5);
-  filter:grayscale(0%);
+  /* filter:grayscale(0%); */
 }
 
 
@@ -83,10 +83,10 @@ p{
   background-color: #758e61;
   display:block;
   float:left;
-  filter: brightness(50%);
+  filter: brightness(30%);
   transition: transform .3s;
   z-index:19;
-  filter:grayscale(100%);
+  /* filter:grayscale(100%); */
   }
 
   .column2:hover{
@@ -103,10 +103,10 @@ p{
   background-color: #009664;
   display:block;
   float:left;
-  filter: brightness(50%);
+  filter: brightness(30%);
   transition: transform .3s;
   z-index:18;
-  filter:grayscale(100%);
+  /* filter:grayscale(100%); */
 }
 
 .column3:hover{
@@ -123,10 +123,10 @@ p{
   background-color: #62be9d;
   display:block;
   float:left;
-  filter: brightness(50%);
+  filter: brightness(30%);
   transition: transform .3s;
   z-index:17;
-  filter:grayscale(100%);
+  /* filter:grayscale(100%); */
   }
   
 
@@ -144,10 +144,10 @@ p{
   background-color: #a1d4bd;
   display:block;
   float:left;
-  filter: brightness(50%);
+  filter: brightness(30%);
   transition: transform .3s;
   z-index:16;
-  filter:grayscale(100%);
+  /* filter:grayscale(100%); */
   }
 
   .column5:hover{
@@ -164,10 +164,10 @@ p{
   background-color: #7fb5a9;
   display:block;
   float:left;
-  filter: brightness(50%);
+  filter: brightness(30%);
   transition: transform .3s;
   z-index:15;
-  filter:grayscale(100%);
+  /* filter:grayscale(100%); */
   }
 
   .column6:hover{
@@ -184,10 +184,10 @@ p{
   background-color: #5cbcb9;
   display:block;
     float:left;
-    filter: brightness(50%);
+    filter: brightness(30%);
     transition: transform .3s;
   z-index:14;
-  filter:grayscale(100%);
+  /* filter:grayscale(100%); */
   }
 
   .column7:hover{
@@ -204,10 +204,10 @@ p{
   background-color:#007981;
   display:block;
     float:left;
-    filter: brightness(50%);
+    filter: brightness(30%);
     transition: transform .3s;
     z-index:13;
-    filter:grayscale(100%);
+    /* filter:grayscale(100%); */
   }
 
   .column8:hover{
@@ -224,7 +224,7 @@ p{
   background-color: #146654;
   display:block;
   float:left;
-  filter:grayscale(100%);
+  /* filter:grayscale(100%); */
   font-size: 80px;
   line-height: 80px;
   }
