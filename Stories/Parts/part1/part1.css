@@ -5,7 +5,8 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-  z-index:-1
+  z-index:-1;
+  filter:brightness(120%)
 }
 
 *::-webkit-media-controls-panel {
@@ -17,8 +18,10 @@ body {
   font-family: 'Cormorant', serif;
   z-index:999;
   font-size: 50px;
-  padding:50px;
   color:#FFA22E;
+  width: 800px;
+  margin-left:23vw;
+  text-align: center;
 }
 
 
@@ -131,7 +134,8 @@ body {
 }
 #reveal5{
   text-align:center;
-  margin-top:300px;
+  margin-top:250px;
+  margin-bottom:50px;
   opacity: 1;
   -webkit-transform: none;
      -moz-transform: none;
@@ -144,6 +148,9 @@ body {
 
 a{
   color: #FFA22E;
+  font-style:italic;
+  font-weight: bold;
+  font-size: 35px;
 }
 a:hover{
    color: white;

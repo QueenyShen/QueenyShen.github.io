@@ -5,6 +5,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+  filter:brightness(120%);
   z-index:-1;
 }
 
@@ -38,14 +39,14 @@ body{
 text-align:left;
 font-family: 'Cormorant', serif;
 font-size: 30px;
-color: #ABD9D7;
+color: #69CDC8;
 }
 
 .pair1{
   text-align:right;
   font-family: 'Cormorant', serif;
   font-size: 30px;
-  color: #ABD9D7;
+  color: #69CDC8;
   display: none;
   }
 

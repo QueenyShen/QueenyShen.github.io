@@ -6,6 +6,7 @@ video {
   top: 0;
   left: 0;
   z-index:-1;
+  filter:brightness(120%)
 }
 
 *::-webkit-media-controls-panel {
@@ -22,7 +23,7 @@ body{
 font-family: 'Cormorant', serif;
 font-size: 50px;
 line-height:100px;
-color: #D5D0FF;
+color: #A095FF;
 }
 
 
@@ -36,7 +37,7 @@ text-align:center;
 }
 
 a{
-  color: #D5D0FF;
+  color: #A095FF;
 }
 a:hover{
    color: white;
