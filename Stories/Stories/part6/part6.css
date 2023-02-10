@@ -1,0 +1,43 @@
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-1;
+}
+
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+
+body{ 
+  padding: 50px;
+}
+
+.text
+{text-align:right;
+font-family: 'Cormorant', serif;
+font-size: 50px;
+line-height:100px;
+color: #D5D0FF;
+}
+
+
+#back{
+font-family: 'Cormorant', serif;
+font-style:italic;
+font-weight: bold;
+font-size: 35px;
+margin-top: 20%;
+text-align:center;
+}
+
+a{
+  color: #D5D0FF;
+}
+a:hover{
+   color: white;
+  }
