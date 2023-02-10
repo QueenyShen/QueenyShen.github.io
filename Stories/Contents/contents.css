@@ -22,7 +22,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: 370px 0px;
-  opacity:0%;
+  /* opacity:0%; */
 }
 
 .backDoor:hover{
@@ -64,7 +64,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: 500px 0px;
-  opacity:0%;
+  /* opacity:0%; */
   
 }
 
@@ -107,7 +107,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: 150px -450px;
-  opacity:0%;
+  /* opacity:0%; */
 }
 
 .backDoor3:hover{
@@ -149,7 +149,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: 50px -1190px;
-  opacity:0%;
+  /* opacity:0%; */
 }
 
 .backDoor4:hover{
@@ -191,7 +191,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: 600px -1600px;
-  opacity:0%;
+  /* opacity:0%; */
   
 }
 
@@ -234,7 +234,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: -200px -1650px;
-  opacity:0%;
+  /* opacity:0%; */
 }
 
 .backDoor6:hover{
@@ -277,7 +277,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: -450px -1850px;
-  opacity:0%;
+  /* opacity:0%; */
 }
 .backDoor7:hover{
   opacity:100%;
@@ -317,7 +317,7 @@ p{
   bottom:50%;
   margin-top:200px;
   translate: -600px -2560px;
-  opacity:0%;
+  /* opacity:0%; */
 }
 
 .backDoor8:hover{
