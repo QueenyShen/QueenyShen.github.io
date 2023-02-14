@@ -14,3 +14,46 @@ video {
   -webkit-appearance: none;
 }
 
+body{
+  color:#9C98B5;
+}
+ 
+.center{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+}
+
+.sentence1{
+  font-style: italic;
+  font-family: 'Cormorant', serif;
+  font-size: 40px;
+}
+
+.sentence {
+  position: absolute;
+  font-size: 18px;
+  max-width: 500px;
+  font-family: 'Cormorant', serif;
+}
+
+#back{
+  font-family: 'Cormorant', serif;
+  font-style:italic;
+  font-weight: bold;
+  font-size: 25px;
+  top:90vh;
+  text-align:center;
+  position: relative;
+  }
+
+  a{
+    color:#9C98B5;
+  }
+  a:hover{
+     color: white;
+    }
+

@@ -5,10 +5,78 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-  
+  filter:brightness(120%);
+  z-index: -1;
 }
 
 *::-webkit-media-controls-panel {
   display: none!important;
   -webkit-appearance: none;
 }
+body{
+  padding:50px;
+  color:#95B0D2;
+  font-size: 24px;
+  font-family: 'Cormorant', serif;
+  font-weight: 100;
+}
+
+.line1 {
+  font-size: 40px;
+  font-weight:400;
+  font-style: italic;
+}
+
+.line2 {
+  font-size: 40px;
+  font-weight:400;
+  font-style: italic;
+}
+
+.line3 {
+  font-size: 40px;
+  font-weight:400;
+  font-style: italic;
+}
+
+.line4 {
+  font-size: 40px;
+  font-weight:400;
+  font-style: italic;
+}
+
+.line5 {
+  font-size: 40px;
+  font-weight:400;
+  font-style: italic;
+}
+
+.line6 {
+  font-size: 40px;
+  font-weight:400;
+  font-style: italic;
+}
+
+.line7 {
+  font-size: 24px;
+}
+
+.line7 {
+  font-size: 24px;
+}
+
+#back{
+  font-family: 'Cormorant', serif;
+  font-style:italic;
+  font-weight: bold;
+  font-size: 25px;
+  top:100vh;
+  text-align:center;
+  }
+
+  a{
+    color: #95B0D2;
+  }
+  a:hover{
+     color: white;
+    }

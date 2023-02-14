@@ -5,6 +5,7 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+  filter:brightness(120%);
   z-index:-1;
   
 }
@@ -14,7 +15,7 @@ video {
   -webkit-appearance: none;
 }
 body {
-  font-family: monospace;
+  font-family: 'Cormorant', serif;
   font-weight: 700;
   font-size:50px;
   padding:20px;
@@ -25,8 +26,8 @@ body {
 .type {
   color:#0000;
   background:
-    linear-gradient(-90deg,#00DFFC 5px,#0000 0) 10px 0,
-    linear-gradient(#00DFFC 0 0) 0 0;
+    linear-gradient(-90deg,#9CD399 5px,#0000 0) 10px 0,
+    linear-gradient(#9CD399 0 0) 0 0;
   background-size:calc(var(--n)*1ch) 200%;
   -webkit-background-clip:padding-box,text;
   background-clip:padding-box,text;
@@ -42,3 +43,19 @@ body {
 @keyframes b{
   50% {background-position:0 -100%,0 0}
 }
+
+#back{
+  font-family: 'Cormorant', serif;
+  font-style:italic;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20%;
+  text-align:center;
+  }
+  
+  a{
+    color: #9CD399;
+  }
+  a:hover{
+     color: white;
+    }

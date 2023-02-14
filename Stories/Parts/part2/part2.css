@@ -5,10 +5,45 @@ video {
   position: fixed;
   top: 0;
   left: 0;
-  
+  filter: brightness(120%);
+  z-index: -1;
 }
 
 *::-webkit-media-controls-panel {
   display: none!important;
   -webkit-appearance: none;
 }
+
+body{
+  position: relative;
+
+}
+
+p{
+  font-family: 'Cormorant', serif;
+  font-size: 60px;
+  color: #C88AB3;
+  line-height: 80px;
+  font-weight: 300;
+  text-align: right;
+  margin-left: 40vw;
+  width: 800px;
+}
+
+#back{
+  font-family: 'Cormorant', serif;
+  font-style:italic;
+  font-weight: bold;
+  font-size: 25px;
+  position:relative;
+  text-align: center;
+  
+  }
+
+  a{
+    color:#C88AB3;
+  }
+  a:hover{
+     color: white;
+    }
+

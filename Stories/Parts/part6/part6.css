@@ -15,30 +15,55 @@ video {
 }
 
 body{ 
-  padding: 50px;
-}
-
-.text
-{text-align:right;
+  padding: 20vw;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  color:#CB8A69;
+  position:relative;
 font-family: 'Cormorant', serif;
-font-size: 50px;
-line-height:100px;
-color: #A095FF;
+font-weight: 100;
+font-size: 40px;
+line-height:80px;
+text-align: justify;
 }
 
+.covered-text {
+  position: relative;
+}
+
+.covered-text:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  clip-path: rect(0, 100%, 100%, 0);
+  opacity: 1;
+  transition: opacity 0.5s;
+  z-index: 2;
+}
+
+.covered-text:hover:before {
+  opacity: 0;
+}
 
 #back{
 font-family: 'Cormorant', serif;
 font-style:italic;
 font-weight: bold;
-font-size: 35px;
+font-size: 25px;
 margin-top: 20%;
 text-align:center;
+color:#CB8A69;
+
 }
 
 a{
-  color: #A095FF;
+  color: #CB8A69;
 }
 a:hover{
    color: white;
   }
+
