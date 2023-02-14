@@ -8,7 +8,6 @@ function toggleDoor1() {
 var element2 = document.querySelector(".door2");
 element2.addEventListener("click", toggleDoor2);
 
-
 function toggleDoor2() {
   element2.classList.toggle("doorOpen");
 }
@@ -22,7 +21,6 @@ function toggleDoor3() {
 
 var element4 = document.querySelector(".door4");
 element4.addEventListener("click", toggleDoor4);
-
 
 function toggleDoor4() {
   element4.classList.toggle("doorOpen");
@@ -38,7 +36,6 @@ function toggleDoor5() {
 var element6 = document.querySelector(".door6");
 element6.addEventListener("click", toggleDoor6);
 
-
 function toggleDoor6() {
   element6.classList.toggle("doorOpen");
 }
@@ -53,7 +50,7 @@ function toggleDoor7() {
 var element8 = document.querySelector(".door8");
 element8.addEventListener("click", toggleDoor8);
 
-
 function toggleDoor8() {
   element8.classList.toggle("doorOpen");
 }
+
