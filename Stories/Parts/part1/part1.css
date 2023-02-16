@@ -41,13 +41,14 @@ body{
 }
 
 #back{
+  position: relative;
   font-family: 'Cormorant', serif;
   font-style:italic;
   font-weight: bold;
   font-size: 25px;
   top:90vh;
   text-align:center;
-  position: relative;
+
   }
 
   a{
