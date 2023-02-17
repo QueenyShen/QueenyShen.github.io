@@ -44,6 +44,23 @@
     margin-left:130px;
 }
 
+.peephole{
+  animation: glow 1.5s linear infinite;
+}
+
+@keyframes glow {
+  0%, 100% {
+    box-shadow:  none;
+  }
+  50% {box-shadow: 0 0 6px 6px#e9fcff;}
+  
+}
+.peephole:hover{
+  height: 15px;
+  width: 15px;
+  margin-left:125px;
+}
+
 .doorOpen
 {
   /*perspective creates the door open effect*/
