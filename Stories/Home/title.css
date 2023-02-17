@@ -1,0 +1,36 @@
+img{
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:-1;
+}
+
+body{
+    color: black;
+}
+
+.container{
+    position: fixed;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+
+.text{
+  font-size: 100px;
+  font-family: 'Ballet', cursive;
+}
+.author{
+    font-style: italic;
+    font-family: 'Cormorant', serif;
+}
