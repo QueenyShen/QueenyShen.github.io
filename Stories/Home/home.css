@@ -52,7 +52,7 @@
   0%, 100% {
     box-shadow:  none;
   }
-  50% {box-shadow: 0 0 6px 6px#e9fcff;}
+  50% {box-shadow: 0 0 10px 10px#e9fcff;}
   
 }
 .peephole:hover{
