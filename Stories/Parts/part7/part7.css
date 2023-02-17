@@ -18,6 +18,73 @@ body{
   margin:50px;
 }
 
+.text{
+  font-family: 'Cormorant', serif;
+    font-size: 30px;
+    color: #69BEB9;
+
+}
+
+
+.container{
+  display:flex;
+  flex-direction: column;
+  row-gap: 100px;
+}
+
+.row {
+  font-size: 25px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+#text1b{
+  opacity:0;
+
+}
+
+#text1a{
+  cursor: pointer;
+}
+
+#text1a:hover ~ #text1b{
+  opacity: 1;
+  
+}
+
+
+
+#text2b{
+  opacity:0;
+}
+
+#text2a{
+  cursor: pointer;
+}
+
+#text2a:hover ~ #text2b{
+  opacity: 1;
+  
+}
+
+
+#text3b{
+  opacity:0;
+}
+
+#text3a{
+  cursor: pointer;
+}
+
+#text3a:hover ~ #text3b{
+  opacity: 1;
+  
+}
+
+
 /* * {
   box-sizing: border-box;
 } */
@@ -35,7 +102,18 @@ body{
   clear: both;
 } */
 
-.p1{
+
+/* .text:nth-child(odd){
+  text-align:left;
+}
+
+
+.text:nth-child(even){
+  text-align:right;
+}
+ */
+
+/* .p1{
   position:relative;
 text-align:left;
 font-family: 'Cormorant', serif;
@@ -59,7 +137,7 @@ color: #69BEB9;
 
 
 .p2{
-  position:relative;
+position:relative;
 margin-top:10%;
 text-align:left;
 font-family: 'Cormorant', serif;
@@ -103,14 +181,14 @@ color: #69BEB9;
   
     .p3:hover + .pair3 {
       display: block;
-    }
+    } */
 
 #back{
 font-family: 'Cormorant', serif;
 font-style:italic;
 font-weight: bold;
 font-size: 25px;
-margin-top: 20%;
+margin-top: 5%;
 text-align:center;
 }
 
