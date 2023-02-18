@@ -1,5 +1,5 @@
 function Redirect() 
 {  
-    window.location="http://www.google.com"; 
+    window.location="../Home/index.html"; 
 } 
 setTimeout('Redirect()', 5000);   
