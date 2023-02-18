@@ -71,83 +71,83 @@ door.addEventListener('click', (event) => {
 const door2 = document.querySelector('.door2');
 
 door2.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default link behavior
+  event.preventDefault(); 
 
   const doorLink2 = event.currentTarget.closest('.door-link2');
 
   setTimeout(() => {
-    window.location.href = doorLink2.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = doorLink2.href; 
+  }, 1000);
 });
 
 const door3 = document.querySelector('.door3');
 
 door3.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default link behavior
+  event.preventDefault(); 
 
   const doorLink3 = event.currentTarget.closest('.door-link3');
 
   setTimeout(() => {
-    window.location.href = doorLink3.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = doorLink3.href; 
+  }, 1000); 
 });
 
 const door4 = document.querySelector('.door4');
 
 door4.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default link behavior
+  event.preventDefault();
 
   const doorLink4 = event.currentTarget.closest('.door-link4');
 
   setTimeout(() => {
-    window.location.href = doorLink4.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = doorLink4.href; 
+  }, 1000); 
 });
 
 const door5 = document.querySelector('.door5');
 
 door5.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default link behavior
+  event.preventDefault(); 
 
   const doorLink5 = event.currentTarget.closest('.door-link5');
 
   setTimeout(() => {
-    window.location.href = doorLink5.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = doorLink5.href;
+  }, 1000); 
 });
 
 const door6 = document.querySelector('.door6');
 
-door2.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default link behavior
+door6.addEventListener('click', (event) => {
+  event.preventDefault(); 
 
   const doorLink6 = event.currentTarget.closest('.door-link6');
 
   setTimeout(() => {
-    window.location.href = doorLink6.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = doorLink6.href;
+  }, 1000); 
 });
 
 const door7 = document.querySelector('.door7');
 
-door2.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default link behavior
+door7.addEventListener('click', (event) => {
+  event.preventDefault(); 
 
   const doorLink7 = event.currentTarget.closest('.door-link7');
 
   setTimeout(() => {
-    window.location.href = doorLink7.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = doorLink7.href; 
+  }, 1000); 
 });
 
 const door8 = document.querySelector('.door8');
 
 door8.addEventListener('click', (event) => {
-  event.preventDefault(); // Prevent default link behavior
+  event.preventDefault(); 
 
   const doorLink8 = event.currentTarget.closest('.door-link8');
 
   setTimeout(() => {
-    window.location.href = doorLink8.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = doorLink8.href; 
+  }, 1000); 
 });
