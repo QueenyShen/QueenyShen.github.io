@@ -20,6 +20,7 @@ img {
   filter: opacity(60%);
 }
 
+
 *::-webkit-media-controls-panel {
   display: none!important;
   -webkit-appearance: none;
@@ -28,6 +29,7 @@ img {
 body{
   /* color:#9C98B5; */
   color:#7a6ec1;
+  cursor: pointer;
 }
  
 .center{
