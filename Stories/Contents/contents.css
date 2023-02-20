@@ -1,6 +1,8 @@
-.container{
- height:0vh;
-position:relative;
+
+.container {
+  position:relative;
+  margin-bottom:-100px;
+  margin-top:50px;
 }
 
 p{
@@ -72,9 +74,9 @@ p{
   
 }
 
-.backDoor2:hover{
+/* .backDoor2:hover{
   opacity:100%;
-}
+} */
 
 .door2
 {
