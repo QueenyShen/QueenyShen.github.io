@@ -151,3 +151,62 @@ door8.addEventListener('click', (event) => {
     window.location.href = doorLink8.href; 
   }, 1000); 
 });
+
+
+
+var count = 0;
+
+function toggleDoor1() {
+  element1.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function toggleDoor2() {
+  element2.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function toggleDoor3() {
+  element3.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function toggleDoor4() {
+  element4.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function toggleDoor5() {
+  element5.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function toggleDoor6() {
+  element6.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function toggleDoor7() {
+  element7.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function toggleDoor8() {
+  element8.classList.toggle("doorOpen");
+  count++;
+  checkCount();
+}
+
+function checkCount() {
+  if (count === 3) {
+    window.location.href = "QueenyShen.github.io/Stories/Home/ending.html"; // Replace with your final link
+  }
+}
+

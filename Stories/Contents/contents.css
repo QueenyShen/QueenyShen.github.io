@@ -1,8 +1,6 @@
 
 .container {
   position:relative;
-  margin-bottom:-100px;
-  margin-top:50px;
 }
 
 p{
@@ -25,7 +23,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: 370px 0px;
   /* opacity:0%; */
@@ -67,7 +65,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: 500px 0px;
   /* opacity:0%; */
@@ -110,7 +108,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: 150px -450px;
   /* opacity:0%; */
@@ -152,7 +150,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: 50px -1190px;
   /* opacity:0%; */
@@ -194,7 +192,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: 600px -1600px;
   /* opacity:0%; */
@@ -237,7 +235,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: -200px -1650px;
   /* opacity:0%; */
@@ -280,7 +278,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: -450px -1850px;
   /* opacity:0%; */
@@ -320,7 +318,7 @@ p{
   width:101px;
   height:161px;
   margin: 0 auto;
-  bottom:50%;
+  /* bottom:50%; */
   margin-top:200px;
   translate: -600px -2560px;
   /* opacity:0%; */
