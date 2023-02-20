@@ -152,3 +152,9 @@ door8.addEventListener('click', (event) => {
   }, 1000); 
 });
 
+
+
+// const doors = document.querySelectorAll('.door');
+// doors.forEach(door => {
+//   door.addEventListener('click', toggleDoor);
+// });
