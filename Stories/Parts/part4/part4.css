@@ -1,4 +1,4 @@
-video {
+/* video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -7,8 +7,20 @@ video {
   left: 0;
   z-index:-1;
   filter: brightness(120%);
-}
+} */
 
+
+img {
+   object-fit: cover;
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   filter: opacity(55%);
+   z-index: -1;
+ }
+ 
 *::-webkit-media-controls-panel {
   display: none!important;
   -webkit-appearance: none;
@@ -18,12 +30,12 @@ body {
   font-family: 'Cormorant', serif;
   z-index:999;
   font-size: 50px;
-  color:#FFA22E;
+  color:#ff9f22;
   width: 800px;
-  margin-left:23vw;
+  margin-left:auto;
+  margin-right:auto;
   text-align: center;
 }
-
 
 #reveal1.visible {
 

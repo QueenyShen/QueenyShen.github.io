@@ -1,4 +1,4 @@
-video {
+/* video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -7,6 +7,17 @@ video {
   left: 0;
   z-index:-1;
   filter:brightness(120%)
+} */
+
+img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index:-1;
+  filter: opacity(60%);
 }
 
 *::-webkit-media-controls-panel {
@@ -15,7 +26,8 @@ video {
 }
 
 body{
-  color:#9C98B5;
+  /* color:#9C98B5; */
+  color:#7a6ec1;
 }
  
 .center{
@@ -52,9 +64,10 @@ body{
   }
 
   a{
-    color:#9C98B5;
+    color:#7a6ec1;
+
   }
   a:hover{
-     color: white;
+    color:#9C98B5;
     }
 

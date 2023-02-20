@@ -1,4 +1,4 @@
-video {
+/* video {
   object-fit: cover;
   width: 100vw;
   height: 100vh;
@@ -7,7 +7,19 @@ video {
   left: 0;
   filter: brightness(120%);
   z-index: -1;
+} */
+
+img {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  filter: opacity(60%);
+  z-index: -1;
 }
+
 
 *::-webkit-media-controls-panel {
   display: none!important;
@@ -19,16 +31,18 @@ body{
 
 }
 
-p{
+.text{
   font-family: 'Cormorant', serif;
-  font-size: 60px;
+  font-size: 20px;
   color: #C88AB3;
-  line-height: 80px;
+  line-height: 40px;
   font-weight: 300;
   text-align: right;
-  margin-left: 40vw;
-  width: 800px;
+  width: 600px;
+  margin-left:auto;
 }
+
+
 
 #back{
   font-family: 'Cormorant', serif;
