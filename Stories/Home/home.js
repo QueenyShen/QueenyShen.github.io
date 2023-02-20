@@ -5,14 +5,7 @@ function toggleDoor() {
   element1.classList.toggle("doorOpen");
 }
 
-var popupWindow = null;
-function positionedPopup(url,winName,w,h,t,l,scroll){
-settings =
-'height='+h+',width='+w+',top='+t+',left='+l+',scrollbars='+scroll+',resizable'
-popupWindow = window.open(url,winName,settings)
-}
-$(document).ready(function() {$(".entry").draggable(); })
-Splitting();
+
 
 const knob = document.querySelector('.knob');
 
@@ -23,5 +16,16 @@ knob.addEventListener('click', (event) => {
 
   setTimeout(() => {
     window.location.href = knobLink.href; // Navigate to the link after delay
-  }, 2000); // Delay for 1 second (1000 milliseconds)
+  }, 1000); // Delay for 1 second (1000 milliseconds)
 });
+
+
+var popupWindow = null;
+function positionedPopup(url,winName,w,h,t,l,scroll){
+settings =
+'height='+h+',width='+w+',top='+t+',left='+l+',scrollbars='+scroll+',resizable'
+popupWindow = window.open(url,winName,settings)
+}
+$(document).ready(function() {$(".entry").draggable(); })
+Splitting();
+
