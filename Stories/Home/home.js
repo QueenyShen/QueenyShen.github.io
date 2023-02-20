@@ -1,10 +1,9 @@
 var element1 = document.querySelector(".door");
-element1.addEventListener("click", toggleDoor1);
+element1.addEventListener("click", toggleDoor);
 
-function toggleDoor1() {
+function toggleDoor() {
   element1.classList.toggle("doorOpen");
 }
-
 
 var popupWindow = null;
 function positionedPopup(url,winName,w,h,t,l,scroll){
@@ -15,15 +14,14 @@ popupWindow = window.open(url,winName,settings)
 $(document).ready(function() {$(".entry").draggable(); })
 Splitting();
 
+const knob = document.querySelector('.knob');
 
-const door = document.querySelector('.door');
-
-door.addEventListener('click', (event) => {
+knob.addEventListener('click', (event) => {
   event.preventDefault(); // Prevent default link behavior
 
-  const doorLink = event.currentTarget.closest('.door-link');
+  const knobLink = event.currentTarget.closest('.knob-link');
 
   setTimeout(() => {
-    window.location.href = doorLink.href; // Navigate to the link after delay
-  }, 1000); // Delay for 1 second (1000 milliseconds)
+    window.location.href = knobLink.href; // Navigate to the link after delay
+  }, 2000); // Delay for 1 second (1000 milliseconds)
 });

@@ -1,19 +1,32 @@
 
 .container {
   position:relative;
+  height:0;
 }
 
 p{
   font-family: 'Ballet', cursive;
-  font-size: 80px;
 }
 
 .title {
   position: absolute;
-  z-index: 99;
+  font-size: 80px;
+  z-index: -1;
   padding:0;
   top: -8%;
   left:3%;
+}
+
+.leave{
+ position:-webkit-sticky;
+  font-size: 30px;
+  font-family: 'Ballet', cursive;
+  margin-top: -152%;
+  margin-left: 85%;
+}
+
+a{
+  color: black;
 }
 
 .backDoor
@@ -25,7 +38,7 @@ p{
   margin: 0 auto;
   /* bottom:50%; */
   margin-top:200px;
-  translate: 370px 0px;
+  translate: 300px 60px;
   /* opacity:0%; */
 }
 
@@ -67,7 +80,7 @@ p{
   margin: 0 auto;
   /* bottom:50%; */
   margin-top:200px;
-  translate: 500px 0px;
+  translate: 500px -80px;
   /* opacity:0%; */
   
 }
@@ -110,7 +123,7 @@ p{
   margin: 0 auto;
   /* bottom:50%; */
   margin-top:200px;
-  translate: 150px -450px;
+  translate: 100px -350px;
   /* opacity:0%; */
 }
 
@@ -152,7 +165,7 @@ p{
   margin: 0 auto;
   /* bottom:50%; */
   margin-top:200px;
-  translate: 50px -1190px;
+  translate: 30px -1190px;
   /* opacity:0%; */
 }
 /* 

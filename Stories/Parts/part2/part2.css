@@ -33,16 +33,84 @@ body{
 
 .text{
   font-family: 'Cormorant', serif;
-  font-size: 20px;
+  font-size: 25px;
   color: #C88AB3;
   line-height: 40px;
   font-weight: 300;
   text-align: right;
-  width: 600px;
+  width: 500px;
   margin-left:auto;
 }
 
+#a{
+font-size: 50px;
+line-height: 80px;
+text-align: justify;
+font-weight: 600;
+font-style: italic;
+color: #C88AB3;
+}
+#b{
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 600;
+font-style: italic;
+color: #d99ac4;
+  }
+#c{
+font-size: 50px;
+line-height: 100px;
+text-align: center;
+font-weight: 600;
+font-style: italic;
+color: rgb(225, 182, 211);
+}
+#d{
+  font-size: 50px;
+  line-height: 100px;
+  font-weight: 600;
+font-style: italic;
+color:#ebc3dd;
+  }
 
+#e{
+color:#ebc3dd;
+}
+
+#d1{
+  font-size: 50px;
+  line-height: 80px;
+  text-align: justify;
+  font-weight: 600;
+  font-style: italic;
+  color: #C88AB3;
+  }
+  #c1{
+    font-size: 50px;
+    line-height: 100px;
+    text-align: center;
+    font-weight: 600;
+  font-style: italic;
+  color: #d99ac4;
+    }
+
+  #b1{
+  font-size: 50px;
+  line-height: 100px;
+  text-align: center;
+  font-weight: 600;
+  font-style: italic;
+  color: rgb(225, 182, 211);
+  }
+  #a1{
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 600;
+  font-style: italic;
+  color:#ebc3dd;
+    }
+  
 
 #back{
   font-family: 'Cormorant', serif;
