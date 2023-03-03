@@ -1,0 +1,155 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 1.15em;
+}
+
+.header-container{
+    padding:1.1vw;
+    padding-top:2.5vh;
+    top:0;
+    position:fixed;
+}
+
+/*container holding all the icons within the menu tab at the top*/
+.header{
+    display: flex;
+    justify-content: flex-start;
+    gap:10px;
+}
+
+/*icon with rounded borders*/
+.icon1{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 4px;
+    padding-left:.5vw;
+    padding-right:.5vw;
+     border-width: 1px;
+  background-color: white;
+}
+
+/*icon with square borders*/
+.icon2{
+    border-style: solid; 
+    padding: 4px;
+    padding-left:.5vw;
+    padding-right:.5vw;
+    border-width: 1px;
+    background-color: white;
+}
+
+/*icon with rounded borders on the radio tab (black strip)*/
+.blackIcon{
+    border-style: solid;
+    border-radius: 20px;
+    padding: 4px;
+    padding-left:.5vw;
+    padding-right:.5vw;
+     border-width: 1px;
+}
+
+
+hr{
+    position:relative;
+    border-top: 1px solid;
+    margin:1vw;
+    margin-top:14vh;
+    margin-bottom:0;  
+}
+
+/*container holding information of everything in the header of each exhibition (event)*/
+.eventHeader{
+    display: flex;
+    padding:0.4vw;
+}
+
+.date{
+    padding-top:0.5vw;
+    padding-left:0.5vw;
+}
+
+/*container holding the square bordered icons within the events section*/
+.tagsContainer{
+    padding-left: 6vw;
+    display: flex;
+    gap: 6px;
+}
+
+.exhibitName{
+    padding:1vh;
+    width:95%;
+    padding-bottom: 2.5vh;
+    font-size: 5.4em;
+    font-weight: 400;
+    letter-spacing: -0.2vw;
+    line-height: 11.5vh;
+}
+
+
+/*container holding information in the radio tab (the black strip)*/
+.radioTab{
+    display:flex;
+    width:100%;
+    padding:1vh;
+    gap:1vw;
+    background-color:black;
+    color:white;
+    
+}
+
+.time{
+    padding-top:0.5vw;
+    padding-left:2vw; 
+}
+
+/*broadcast name*/
+.radioShow{
+    padding-top:0.5vw;
+    padding-left:5.3vw;
+    width:32vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+/*container holding the round bordered icons in the radio tab*/
+.radioTags{
+    display:flex;
+    gap:6px;
+    flex-grow:1;
+}
+
+.ticket{
+    position:absolute;
+    right:0px;
+}
+
+/*radio play button*/
+.arrow {
+    border: solid white;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    width: 1.5vw;
+    height: 1.5vw;
+    margin:.5vh;
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+  }
+
+.searchContainer{
+    width:100%;
+    background-color: black ;
+    padding:1vw;
+}
+.search{
+    font-size:5.4em;
+    font-weight: 400;
+    color:white;
+    border-style: solid;
+    border-radius: 60px;
+    padding:.5vh;
+    border-width:1px;
+    padding-left:2.5vw;
+    letter-spacing: -0.2vw;
+}
