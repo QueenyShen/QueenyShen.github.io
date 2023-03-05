@@ -1,3 +1,7 @@
+html, body {
+    margin: 0;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
@@ -55,7 +59,8 @@ hr{
     border-top: 1px solid;
     margin:1vw;
     margin-top:14vh;
-    margin-bottom:0;  
+    margin-bottom:0; 
+    z-index:-1; 
 }
 
 /*container holding information of everything in the header of each exhibition (event)*/
@@ -90,8 +95,8 @@ hr{
 /*container holding information in the radio tab (the black strip)*/
 .radioTab{
     display:flex;
-    width:100%;
-    padding:1vh;
+    padding-top:1vh;
+    padding-bottom:1vh;
     gap:1vw;
     background-color:black;
     color:white;
@@ -138,9 +143,11 @@ hr{
   }
 
 .searchContainer{
-    width:100%;
+    width:100vw;
     background-color: black ;
-    padding:1vw;
+    /* padding:1vw; */
+    padding-top: 1vw;
+    padding-bottom: 1vw;
 }
 .search{
     font-size:5.4em;
