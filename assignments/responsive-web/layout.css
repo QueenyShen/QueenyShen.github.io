@@ -8,6 +8,7 @@ body{
     font-size: 1.15em;
 }
 
+/*container holding all the icons within the menu tab at the top*/
 .header-container{
     padding:1.1vw;
     padding-top:2.5vh;
@@ -16,7 +17,6 @@ body{
     flex-wrap:wrap
 }
 
-/*container holding all the icons within the menu tab at the top*/
 .header{
     display: flex;
     justify-content: flex-start;
@@ -68,7 +68,6 @@ hr{
 
 /*container holding information of everything in the header of each exhibition (event)*/
 
-
 .eventHeader{
     display: flex;
     padding:0.4vw;
@@ -87,6 +86,8 @@ hr{
     flex-wrap:wrap;
 }
 
+
+/*Bit title of exhibit names*/
 .exhibitName{
     padding:1vw;
     width:95%;
@@ -159,6 +160,7 @@ hr{
     -webkit-transform: rotate(-45deg);
   }
 
+/*Container holding the research bar*/
 .searchContainer{
     width:100vw;
     background-color: black ;
@@ -182,6 +184,7 @@ hr{
     padding-left:3vw;
     letter-spacing: -0.2vw;
 }
+
 
 /*Small size devices */
 @media only screen and (max-width: 800px) {
@@ -228,8 +231,6 @@ hr{
         width: 3.5vw;
         height: 3.5vw;
     }
-
-    
 
 }
 
