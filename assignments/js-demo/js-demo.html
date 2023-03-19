@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+</head>
+<script>
+
+let num = 2;
+        const myConst = true;
+
+        //console.log ('Hello, World!');
+        //console.log(myConst);
+
+        let x = 5;
+        let y = 2;
+        //console.log(x+y);
+        //console.log(x==y);
+
+        console.log(x > 3 && y < 3 );
+        console.log(x > 3 || y == 3);
+        console.log(!(x > 3));
+
+        console.log (x);
+
+        x += 2;
+        x ++;
+        console.log (x);
+
+        let absence = -2;
+
+        absence++; //absence = absence + 1;
+
+        if (absence > 2) {
+            console.log("you will fail");
+        }
+        else if (absence == 2) {
+            console.log("danger zone");
+        }
+        else {
+            console.log("you're fine");
+        }
+
+        window.onload = () => {
+            const paragraph = document.querySelector ("p");
+            const btn = document.querySelector ("button");
+                     
+            btn.addEventListener("click",() => {
+                absence++;
+                paragraph.innerHTML = absence;
+            });
+        }
+
+</script>
+<body>
+
+    <p id="first">This is a paragraph</p>
+    <button> Absence + 1</button>
+    
+</body>
+</html>
