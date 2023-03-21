@@ -651,8 +651,10 @@
         "Cover color": "white",
         "Condition": "new",
         "nth Word": 3,
-        "Word": "의"
-        
+        "Word": "의",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/loss.png",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/ui.jpg"
+
       },
       {
         "": "Book store",
@@ -666,7 +668,9 @@
         "Cover color": "blue",
         "Condition": "new",
         "nth Word": 6,
-        "Word": "이"
+        "Word": "이",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/loss.png",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/i.jpg"
       },
       {
         "": "Book store",
