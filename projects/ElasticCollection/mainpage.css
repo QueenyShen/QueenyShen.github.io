@@ -18,7 +18,7 @@ li {
 
 
 img{
-	width:50px;
+	width:5vw;
 }
 
 /* .container {
@@ -42,16 +42,16 @@ img{
 
 .container{
 	background-color: white;
-	width: 1300px; /* set the container's width in pixels */
-	height: 800px; /* set the container's height in pixels */
+	/* width: 1300px; 
+	height: 800px; */
+	width: 90vw;
+	height: 90vh;
 	justify-content: center;
 	position: relative;
 	margin-left: 4vw;
+	overflow: hidden; /* Add overflow hidden */
 }
-li img {
-	max-width: 100px;
-	max-height: 100px;
-  }
+
 
 #heading{
 	color:white;
@@ -68,9 +68,10 @@ li img {
  #collection {
 	display: flex;
 	flex-wrap: wrap;
-	position: relative; /* Add position relative to collection */
-	width: 100%;
-	height: 100%;
+	position: relative; 
+	width: 90%;
+	height: 85%;
+	justify-content: center;
   }
 
 /* .flex-container {
