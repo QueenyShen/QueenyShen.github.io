@@ -10,8 +10,8 @@
       "Cover color": "white",
       "nth Word": 3,
       "Word": "Oh",
-      "bookCover": "../book_images/Mine/record.JPG",
-      "wordImage": "oh.jpg"
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/record.JPG",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/oh.jpg"
     },
     {
       "": "My books",
@@ -420,7 +420,7 @@
       },
       {
         "": "School library",
-        "Title": "Go Hasegawa: Thinking Making Achitecture, Living",
+        "Title": "Go Hasegawa: Thinking Making Architecture, Living",
         "Author/Editor": "長谷川豪 Go Hasegawa",
         "Year published": 2012,
         "Genre": "Architecture",
