@@ -26,3 +26,10 @@ li {
 img{
 	width:200px;
 }
+
+.flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content:space-around;
+	height: 10vh;
+}

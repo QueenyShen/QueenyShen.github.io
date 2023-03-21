@@ -1,6 +1,6 @@
 [
     {
-      "": "My books",
+      "place": "My books",
       "Title": "Cover Without a Record ",
       "Author/Editor": " Al Filreis",
       "Year published": 2008,
@@ -14,7 +14,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/oh.jpg"
     }, 
     {
-      "": "My books",
+      "place": "My books",
       "Title": "Your turn - Ways to celebrate life through storytelling",
       "Author/Editor": "Dr.Tyra Manning",
       "Year published": 2019,
@@ -28,7 +28,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/I.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "Interaction of color 50th Anniversary Edition",
       "Author/Editor": "Josef Albers",
       "Year published": 1963,
@@ -42,7 +42,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/way.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "The Edge of Paradise",
       "Author/Editor": "P.F. Kluge",
       "Year published": 1991,
@@ -56,7 +56,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/or.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "Genki An Integrated Course in Elementary Japanese 3rd Edition",
       "Author/Editor": "Eri Banno Yoko Ikeda Yutaka Ohno Chikako Shinagawa Kyoko Tokashiki",
       "Year published": 2020,
@@ -66,11 +66,11 @@
       "Cover color": "orange",
       "nth Word": 3,
       "Word": "第",
-      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/genki.jpg",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/genki.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/dai.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "Fred Tomaselli",
       "Author/Editor": "Tomaselli, Fred; Alisa Tager; David A. Greene",
       "Year published": 1995,
@@ -84,7 +84,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/Kandel.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "The New Japanese Painting and Sculpture ",
       "Author/Editor": "William Lieberman",
       "Year published": 1966,
@@ -98,7 +98,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/from.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "慕夏",
       "Author/Editor": "[日]佐藤之子 著  王语微 译",
       "Year published": 2017,
@@ -112,7 +112,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/ji.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "Travel Guide North America Relais & Chateaux ",
       "Author/Editor": "Philippe Gombert, Brenda Homick, Anna Hahn, Les Digitalistes, Susan Dumas",
       "Year published": "Unknown",
@@ -126,7 +126,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/states.jpg"
     },
     {
-      "": "My books",
+      "place": "My books",
       "Title": "New and Recent Typefaces by Hoefler&Co., Eleventh Edition.",
       "Author/Editor": "Jonathan Hoefler",
       "Year published": 2019,
@@ -142,7 +142,7 @@
 
 
     {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "The Wind-up Bird Chronicle",
         "Author/Editor": "Haruki Murakami Translator: Jay Rubin",
         "Year published": 1998,
@@ -156,7 +156,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wear.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "Tokyo Ghoul[Illustrations]: Zakki",
         "Author/Editor": "Sui Ishida",
         "Year published": 2017,
@@ -170,7 +170,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/banquet.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "上海字记",
         "Author/Editor": "姜庆共/刘瑞樱",
         "Year published": 2014,
@@ -184,7 +184,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/zhi.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "温柔之乡的梦",
         "Author/Editor": "魏雅华",
         "Year published": 1999,
@@ -198,7 +198,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/di.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "香港现形记",
         "Author/Editor": "伞下的人 ",
         "Year published": 2021,
@@ -212,7 +212,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/fang.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "When Breath Becomes Air",
         "Author/Editor": "Paul Kalanithi",
         "Year published": 2016,
@@ -226,7 +226,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/as.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "左手领导力 右手执行力：领导要稳执行要狠，优秀中层的15条管理法则",
         "Author/Editor": "鲁克德",
         "Year published": 2017,
@@ -240,7 +240,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/gan.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "最怕你一生碌碌无为，还安慰自己的平凡可贵",
         "Author/Editor": "老杨的猫头鹰",
         "Year published": 2016,
@@ -254,7 +254,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/fo.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "GRE Prep Plus 2022: 6 Practice Tests + Proven Strategies + Online",
         "Author/Editor": "Kaplan Test Prep",
         "Year published": 2021,
@@ -264,11 +264,11 @@
         "Cover color": "blue",
         "nth Word": 6,
         "Word": "be",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/grePlus.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/grePlus.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/be.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "Princeton Review GRE Premium Prep, 2022: 7 Practice Tests + Review & Techniques + Online Tools",
         "Author/Editor": "The Princeton Review",
         "Year published": 2021,
@@ -278,11 +278,11 @@
         "Cover color": "green",
         "nth Word": 6,
         "Word": "test",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/gre.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/gre.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/test.jpg"
       },
       {
-        "": "Friends books",
+        "place": "Friends books",
         "Title": "在海德堡坠入情网：龙应台自选集",
         "Author/Editor": "龙应台",
         "Year published": 1996,
@@ -292,14 +292,14 @@
         "Cover color": "brown",
         "nth Word": 6,
         "Word": "大",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/haiDeBao.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/haiDeBao.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/da.jpg"
       },
 
 
 
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Iran: Persian Miniatures - Imperial Library",
         "Author/Editor": "Basil Gray",
         "Year published": 1956,
@@ -314,7 +314,7 @@
       },
 
       {
-        "": "School library",
+        "place": "School library",
         "Title": "日本繪卷物全集: 病草紙.餓鬼草紙.地獄草紙\n",
         "Author/Editor": "田中一松 Ichimatsu Tanaka",
         "Year published": 1958,
@@ -328,7 +328,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/chi.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Die Mode. Menschen und Moden im 19. Jahrhundert. 1843-1878",
         "Author/Editor": "Max von Boehn",
         "Year published": 1963,
@@ -342,7 +342,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/und.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Maps: A Visual Survey and Design Guide",
         "Author/Editor": "Michael and Susan Southworth",
         "Year published": 1982,
@@ -356,7 +356,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/topographic.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Traditional Chinese Clothing: Costumes, Adornments & Culture",
         "Author/Editor": "Shaorong Yang",
         "Year published": 2004,
@@ -370,7 +370,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/overcoat.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "한국인의 옷",
         "Author/Editor": "조효순 지음",
         "Year published": 1995,
@@ -384,7 +384,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/koreanClothes.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "The Kimono & Western Clothes",
         "Author/Editor": "Masako Shirasu",
         "Year published": 1980,
@@ -398,7 +398,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/kimono.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Bauhaus Conflicts 1919-2009: Controversies and Counterparts",
         "Author/Editor": "Edited by Philipp Oswalt. Text by Gerda Breuer, Magdalena Droste, Jörn Etzold.",
         "Year published": 2010,
@@ -412,7 +412,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/itten.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Diller & Scofidio: The Eyebeam Museum Of New Media",
         "Author/Editor": "Keith Mitnick",
         "Year published": 2003,
@@ -426,7 +426,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/autonomous.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Community Art: The Politics of Trespassing",
         "Author/Editor": "Paul De Bruyne & Pascal Gielen (editors)",
         "Year published": 2011,
@@ -440,7 +440,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/social.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Hans Poelzig: gesammelte Schriften und Werke",
         "Author/Editor": "Hans Poelzig / Julius Posener (editor)",
         "Year published": 1970,
@@ -454,7 +454,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/die.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Yo.V.A.3 - Young Viennese Architects",
         "Author/Editor": "Magistrat Stadt Wien (editor)",
         "Year published": 2010,
@@ -468,7 +468,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/is.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Go Hasegawa: Thinking Making Architecture, Living",
         "Author/Editor": "長谷川豪 Go Hasegawa",
         "Year published": 2012,
@@ -478,11 +478,11 @@
         "Cover color": "white",
         "nth Word": 3,
         "Word": "事",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/Hasegawa.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/Hasegawa.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/koto.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Finding Architecture",
         "Author/Editor": "Moriko Kira",
         "Year published": 2014,
@@ -496,7 +496,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/ni.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "45RPM. A Visual History of the Seven-Inch Record",
         "Author/Editor": "Edited by Spencer Drate",
         "Year published": 2002,
@@ -506,11 +506,11 @@
         "Cover color": "yellow",
         "nth Word": 3,
         "Word": "fool",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/45rpm.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/45rpm.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/fool.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Matthew Barney: Drawing Restraint. Volume I, 1987-2002",
         "Author/Editor": "Edited by Hans Ulrich Obrist",
         "Year published": 2005,
@@ -520,11 +520,11 @@
         "Cover color": "black",
         "nth Word": 3,
         "Word": "",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/drawing.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/drawing.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/drawingRestraint.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Artur Barrio",
         "Author/Editor": "Organized by Bienal Sao Paulo",
         "Year published": 2011,
@@ -534,11 +534,11 @@
         "Cover color": "black/white",
         "nth Word": 6,
         "Word": "and",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/barrio.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/barrio.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/and.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "De gulden snede en het werk van Caris",
         "Author/Editor": "Gerard Caris",
         "Year published": 1986,
@@ -548,11 +548,11 @@
         "Cover color": "white",
         "nth Word": 6,
         "Word": "de",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/guldenSnede.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/guldenSnede.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/de.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Les non-conformistes : histoire d'une collection russe (The non-conformists : the story of a Russian collection)",
         "Author/Editor": "Andreï Erofeev",
         "Year published": 2019,
@@ -562,11 +562,11 @@
         "Cover color": "Brown",
         "nth Word": 3,
         "Word": "collection",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/conformistes.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/conformistes.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/collection.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "マルク·シャガール：絵画·雕刻·陶器 : 1920-1983. Marc Chagall : peintures, sculptures, céramiques : 1920-1983.",
         "Author/Editor": "Marc Chagall",
         "Year published": 1996,
@@ -576,11 +576,11 @@
         "Cover color": "Black",
         "nth Word": 6,
         "Word": "et",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/chagall.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/chagall.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/et.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "El Lissitzky - Der Traum vom Wolkenbügel.",
         "Author/Editor": "Máčel, Otakar",
         "Year published": 1991,
@@ -590,11 +590,11 @@
         "Cover color": "blue",
         "nth Word": 6,
         "Word": "hin",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/lissitzky.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/lissitzky.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/hin.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Lu ShengZhong: First Encounter",
         "Author/Editor": "Lu ShengZhong (Author), Weiqing (Author), Christophe W. Mao (Author)",
         "Year published": 2003,
@@ -604,11 +604,11 @@
         "Cover color": "black/red",
         "nth Word": 6,
         "Word": "Sketch",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/luShengZhong.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/luShengZhong.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/sketch.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Graphic design in the post-digital age : a survey of practices fuelled by creative coding",
         "Author/Editor": "Demian Conrad",
         "Year published": 2021,
@@ -622,7 +622,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/activists.jpg"
       },
       {
-        "": "School library",
+        "place": "School library",
         "Title": "Elastic city : prompts for participatory walks",
         "Author/Editor": "Todd Shalom editor.",
         "Year published": 2019,
@@ -632,7 +632,7 @@
         "Cover color": "black",
         "nth Word": 6,
         "Word": "want",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/elasticCity.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/elasticCity.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/want.jpg"
 
       },
@@ -640,7 +640,7 @@
 
       
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "상실 수업 상실과 함께 살아가는 법",
         "Author/Editor": "엘리자베스 퀴블러 로스, 데이비드 A. 케슬러 저/김소향 역 ",
         "Year published": 2014,
@@ -657,7 +657,7 @@
 
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "나의 운명 사용설명서 사주명리학과 안티 오이디푸스",
         "Author/Editor": "고미숙 저",
         "Year published": 2012,
@@ -669,11 +669,11 @@
         "Condition": "new",
         "nth Word": 6,
         "Word": "이",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/loss.png",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/myDestiny.png",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/i.jpg"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "사랑의 기술",
         "Author/Editor": "에리히 프롬 저/황문수 역",
         "Year published": 2019,
@@ -684,10 +684,12 @@
         "Cover color": "white",
         "Condition": "new",
         "nth Word": 3,
-        "Word": "동"
+        "Word": "동",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/artOfLoving.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/dong.jpg"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "유배지에서 보낸 편지",
         "Author/Editor": "정약용 저/박석무 역",
         "Year published": 2018,
@@ -698,10 +700,12 @@
         "Cover color": "green",
         "Condition": "new",
         "nth Word": 6,
-        "Word": "길"
+        "Word": "길",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/letterFromExile.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/gil.jpg"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "사막에서는 길을 묻지 마라",
         "Author/Editor": "나태주 저",
         "Year published": 2020,
@@ -712,10 +716,12 @@
         "Cover color": "yellow",
         "Condition": "new",
         "nth Word": 3,
-        "Word": "켜"
+        "Word": "켜",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/koreanPoetry.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/kyeo.jpg"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Come sopravvivere per entrare in una nuova Terra ",
         "Author/Editor": "Aa.Vv. (various Authors) ",
         "Year published": 1984,
@@ -726,10 +732,12 @@
         "Cover color": "green",
         "Condition": "used",
         "nth Word": 6,
-        "Word": "lebbra"
+        "Word": "lebbra",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/nuovaTerra.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/lebbra.jpg"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Victorian Chic",
         "Author/Editor": "Anita Louise Crane",
         "Year published": 2001,
@@ -740,10 +748,12 @@
         "Cover color": "beige",
         "Condition": "used",
         "nth Word": 3,
-        "Word": ""
+        "Word": "",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/victorianChic.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/used.jpg"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "I Am Here: The Poems of Neil Molberger",
         "Author/Editor": "Edited by Helen Molbereger Gruber",
         "Year published": 2001,
@@ -754,10 +764,12 @@
         "Cover color": "red ",
         "Condition": "used",
         "nth Word": 6,
-        "Word": "will"
+        "Word": "will",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/iAmHere.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/poems_will.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Joey Green's Magic Brands - 1,185 Brand-new Uses For Brand Name Products",
         "Author/Editor": "Joey Green",
         "Year published": 2001,
@@ -768,10 +780,12 @@
         "Cover color": "blue",
         "Condition": "used",
         "nth Word": 3,
-        "Word": "than"
+        "Word": "than",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/magicBrands.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/than.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Beware Those Who Ask for Feedback: And Other Organizational Constants",
         "Author/Editor": "Richard A. Moran",
         "Year published": 1994,
@@ -782,10 +796,12 @@
         "Cover color": "blue",
         "Condition": "used",
         "nth Word": 6,
-        "Word": "out"
+        "Word": "out",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/feedback.png",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/out.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "The Generals: American Military Command from World War II to Today",
         "Author/Editor": "Thomas E. Ricks",
         "Year published": 2012,
@@ -796,10 +812,12 @@
         "Cover color": "red",
         "Condition": "used",
         "nth Word": 3,
-        "Word": "Americans"
+        "Word": "Americans",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/generals.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/americans.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "For Bridegrooms Only",
         "Author/Editor": "Leo Garel",
         "Year published": 1948,
@@ -810,10 +828,12 @@
         "Cover color": "black",
         "Condition": "used",
         "nth Word": 6,
-        "Word": "sir"
+        "Word": "sir",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/bridegroom.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/sir.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Virtue: A Novel ",
         "Author/Editor": "Hermione Hoby",
         "Year published": 2021,
@@ -824,10 +844,12 @@
         "Cover color": "blue",
         "Condition": "used",
         "nth Word": 3,
-        "Word": "the"
+        "Word": "the",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/virture.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/virture_the.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Under the Black Ensign",
         "Author/Editor": "L. Ron Hubbard",
         "Year published": 2013,
@@ -838,10 +860,12 @@
         "Cover color": "yellow",
         "Condition": "used",
         "nth Word": 6,
-        "Word": "Ricardo"
+        "Word": "Ricardo",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/blackEnsign.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/ricardo.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "The Woman in White",
         "Author/Editor": "Wilkie Collins",
         "Year published": 2012,
@@ -852,10 +876,12 @@
         "Cover color": "purple",
         "Condition": "used",
         "nth Word": 3,
-        "Word": "mind"
+        "Word": "mind",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/womanInWhite.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/mind.png"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Homegoing",
         "Author/Editor": "Yaa Gyasi",
         "Year published": 2016,
@@ -866,10 +892,12 @@
         "Cover color": "orange",
         "Condition": "new",
         "nth Word": 6,
-        "Word": "of"
+        "Word": "of",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/homegoing.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/kyeo.jpg"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Voltaire: Candide and Zadig",
         "Author/Editor": "Voltaire",
         "Year published": 1977,
@@ -883,7 +911,7 @@
         "Word": "Distress"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Stories From French History",
         "Author/Editor": "Lena Dalkeith",
         "Year published": 1909,
@@ -897,7 +925,7 @@
         "Word": "Louis"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Crush",
         "Author/Editor": "Richard Siken",
         "Year published": 2005,
@@ -911,7 +939,7 @@
         "Word": "glow"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Dream Big Little One",
         "Author/Editor": "Vashti Harrison",
         "Year published": 2018,
@@ -925,7 +953,7 @@
         "Word": "do"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "The Utopia of Rules: On Technology, Stupidity, and the Secret Joys of Bureaucracy",
         "Author/Editor": "David Graeber",
         "Year published": 2016,
@@ -939,7 +967,7 @@
         "Word": "will"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Que cada cosa cruel sea tú que vuelves ",
         "Author/Editor": "Julio Cortazar",
         "Year published": 2018,
@@ -953,7 +981,7 @@
         "Word": "Has"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Maxim's Book of Big Pictures: Hot Babes, Strange Freaks and Bad, Bad Accidents ",
         "Author/Editor": "The Editors of Maxim",
         "Year published": 2000,
@@ -967,7 +995,7 @@
         "Word": "Terror"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "De la place Louis XV à la place de la Concorde",
         "Author/Editor": " Musée Carnavalet",
         "Year published": 1987,
@@ -982,7 +1010,7 @@
       },
 
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Murat: Cavalier, marechal de France, prince et roi",
         "Author/Editor": "Marcel Dupont",
         "Year published": 1980,
@@ -996,7 +1024,7 @@
         "Word": "suivi"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Libro RTV 20. El Licenciado Vidriera y otras novelas ejemplares",
         "Author/Editor": "Miguel de Cervantes Saavedra",
         "Year published": 1969,
@@ -1010,7 +1038,7 @@
         "Word": "prenderte"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "歌舞伎入門―鑑賞へのいざない (淡交ムック)",
         "Author/Editor": "監修・織田紘二",
         "Year published": 1997,
@@ -1024,7 +1052,7 @@
         "Word": "伎"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Edvard Munch: Lithographien, Holzschnitte, Radierungen",
         "Author/Editor": "Galerie der Stadt Esslingen",
         "Year published": 1996,
@@ -1038,7 +1066,7 @@
         "Word": "Tusche"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Tra fiume e citta': Paesaggi, progetti e principi ",
         "Author/Editor": "Diana Balmori",
         "Year published": 2009,
@@ -1052,7 +1080,7 @@
         "Word": "immagini"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "El poder de los hábitos: Por qué hacemos lo que hacemos en la vida y los negocios ",
         "Author/Editor": "Charles Duhigg",
         "Year published": 2019,
@@ -1066,7 +1094,7 @@
         "Word": "recibió "
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "A Dictionary of Platitudes: Being a Compendium of Conversational Cliches, Blind Beliefs, Fashionable Misconceptions, and Fixed Ideas",
         "Author/Editor": "Gustave Flauber",
         "Year published": 1954,
@@ -1080,7 +1108,7 @@
         "Word": "materialists"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "Let's get burgers",
         "Author/Editor": "Ash S.",
         "Year published": 2022,
@@ -1094,7 +1122,7 @@
         "Word": ""
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "I Hate Men: More than a banned book, the must-read on feminism, sexism and the patriarchy for every woman",
         "Author/Editor": "Pauline Harmange",
         "Year published": 2020,
@@ -1108,7 +1136,7 @@
         "Word": "little"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "The Black Experience in Design: Identity Expression & Reflection ",
         "Author/Editor": "Anne H. Berry, Kareem Collie, Penina Acayo Laker, Lesley-Ann Noel, Jennifer Rittner, Kelly Walters",
         "Year published": 2022,
@@ -1122,7 +1150,7 @@
         "Word": "the"
       },
       {
-        "": "Book store",
+        "place": "Book store",
         "Title": "100 Buildings - 1900–2000",
         "Author/Editor": "by Thom Mayne, Eui-Sung Yi",
         "Year published": 2017,
