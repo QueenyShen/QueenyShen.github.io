@@ -38,7 +38,7 @@
       "Cover color": "white",
       "nth Word": 3,
       "Word": "way",
-      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/color.jpg",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/color.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/way.jpg"
     },
     {
@@ -52,7 +52,7 @@
       "Cover color": "yellow",
       "nth Word": 3,
       "Word": "Or",
-      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/paradise.jpg",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/paradise.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/or.jpg"
     },
     {
@@ -89,12 +89,13 @@
       "Author/Editor": "William Lieberman",
       "Year published": 1966,
       "Genre": "Art",
-      
       "Type": "Sans serif",
       "Language": "English",
       "Cover color": "grey",
       "nth Word": 6,
-      "Word": "from"
+      "Word": "from",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/japaneseSculpture.JPG",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/from.jpg"
     },
     {
       "": "My books",
@@ -102,12 +103,13 @@
       "Author/Editor": "[日]佐藤之子 著  王语微 译",
       "Year published": 2017,
       "Genre": "Art",
-      
       "Type": "Serif",
       "Language": "Chinese",
       "Cover color": "white",
       "nth Word": 6,
-      "Word": "计"
+      "Word": "计",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/mucha.JPG",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/ji.jpg"
     },
     {
       "": "My books",
@@ -115,12 +117,13 @@
       "Author/Editor": "Philippe Gombert, Brenda Homick, Anna Hahn, Les Digitalistes, Susan Dumas",
       "Year published": "Unknown",
       "Genre": "Travel",
-      
       "Type": "Sans serif",
       "Language": "English",
       "Cover color": "green",
       "nth Word": 6,
-      "Word": "States"
+      "Word": "States",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/travel.JPG",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/states.jpg"
     },
     {
       "": "My books",
@@ -128,12 +131,13 @@
       "Author/Editor": "Jonathan Hoefler",
       "Year published": 2019,
       "Genre": "Design",
-      
       "Type": "Both",
       "Language": "Multi",
       "Cover color": "blue",
       "nth Word": 6,
-      "Word": "necesse"
+      "Word": "necesse",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/typefaces.JPG",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/necesse.jpg"
     },
     {
         "": "Friends books",
@@ -141,12 +145,13 @@
         "Author/Editor": "Haruki Murakami Translator: Jay Rubin",
         "Year published": 1998,
         "Genre": "Novel/Science fiction",
-        
         "Type": "Serif",
         "Language": "English",
         "Cover color": "pink/red",
         "nth Word": 3,
-        "Word": "wear"
+        "Word": "wear",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wind-upBird.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wear.jpg"
       },
       {
         "": "Friends books",
@@ -154,12 +159,13 @@
         "Author/Editor": "Sui Ishida",
         "Year published": 2017,
         "Genre": "Art",
-        
         "Type": "Sans serif",
         "Language": "English",
         "Cover color": "blue",
         "nth Word": 3,
-        "Word": "Banquet"
+        "Word": "Banquet",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/tokyoGoul.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/banquet.jpg"
       },
       {
         "": "Friends books",
@@ -167,12 +173,13 @@
         "Author/Editor": "姜庆共/刘瑞樱",
         "Year published": 2014,
         "Genre": "Design",
-        
         "Type": "Both",
         "Language": "Chinese",
         "Cover color": "beige",
         "nth Word": 3,
-        "Word": "之"
+        "Word": "之",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/shanghai.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/zhi.jpg"
       },
       {
         "": "Friends books",
@@ -180,12 +187,13 @@
         "Author/Editor": "魏雅华",
         "Year published": 1999,
         "Genre": "Novel/ Science Fiction",
-        
         "Type": "Serif",
         "Language": "Chinese",
         "Cover color": "beige/yellow",
         "nth Word": 3,
-        "Word": "地"
+        "Word": "地",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wenrou.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/di.jpg"
       },
       {
         "": "Friends books",
@@ -193,12 +201,13 @@
         "Author/Editor": "伞下的人 ",
         "Year published": 2021,
         "Genre": "Political sociology",
-        
         "Type": "Serif",
         "Language": "Chinese",
         "Cover color": "Taupe",
         "nth Word": 3,
-        "Word": "訪"
+        "Word": "訪",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/hk.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/fang.jpg"
       },
       {
         "": "Friends books",
@@ -206,12 +215,13 @@
         "Author/Editor": "Paul Kalanithi",
         "Year published": 2016,
         "Genre": "Biography/Autobiography",
-        
         "Type": "Serif",
         "Language": "English",
         "Cover color": "white",
         "nth Word": 6,
-        "Word": "as"
+        "Word": "as",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/air.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/as.jpg"
       },
       {
         "": "Friends books",
@@ -219,12 +229,13 @@
         "Author/Editor": "鲁克德",
         "Year published": 2017,
         "Genre": "Management/Leadership",
-        
         "Type": "Serif",
         "Language": "Chinese",
         "Cover color": "white",
         "nth Word": 6,
-        "Word": "干"
+        "Word": "干",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/zuoShouYouShou.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/gan.jpg"
       },
       {
         "": "Friends books",
@@ -232,12 +243,13 @@
         "Author/Editor": "老杨的猫头鹰",
         "Year published": 2016,
         "Genre": "Success/Inspirational",
-        
         "Type": "Serif",
         "Language": "Chinese",
         "Cover color": "white",
         "nth Word": 6,
-        "Word": "佛"
+        "Word": "佛",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/pingfan.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/fo.jpg"
       },
       {
         "": "Friends books",
@@ -245,12 +257,13 @@
         "Author/Editor": "Kaplan Test Prep",
         "Year published": 2021,
         "Genre": "Textbook",
-        
         "Type": "Serif",
         "Language": "English",
         "Cover color": "blue",
         "nth Word": 6,
-        "Word": "be"
+        "Word": "be",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/grePlus.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/be.jpg"
       },
       {
         "": "Friends books",
@@ -262,7 +275,9 @@
         "Language": "English",
         "Cover color": "green",
         "nth Word": 6,
-        "Word": "test"
+        "Word": "test",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/gre.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/test.jpg"
       },
       {
         "": "Friends books",
@@ -274,7 +289,9 @@
         "Language": "Chinese",
         "Cover color": "brown",
         "nth Word": 6,
-        "Word": "大"
+        "Word": "大",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/haiDeBao.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/da.jpg"
       },
 
       {
@@ -287,7 +304,9 @@
         "Language": "German",
         "Cover color": "white",
         "nth Word": 3,
-        "Word": "Baysunqur"
+        "Word": "Baysunqur",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wenrou.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/di.jpg"
       },
       {
         "": "School library",
