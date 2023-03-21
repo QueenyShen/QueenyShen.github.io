@@ -75,12 +75,13 @@
       "Author/Editor": "Tomaselli, Fred; Alisa Tager; David A. Greene",
       "Year published": 1995,
       "Genre": "Art ",
-      
       "Type": "Serif",
       "Language": "English",
       "Cover color": "black",
       "nth Word": 6,
-      "Word": "Kandel"
+      "Word": "Kandel",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/tomaselli.JPG",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/Kandel.jpg"
     },
     {
       "": "My books",
