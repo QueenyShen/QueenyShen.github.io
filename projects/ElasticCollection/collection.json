@@ -24,8 +24,8 @@
       "Cover color": "white",
       "nth Word": 3,
       "Word": "I",
-      "bookCover": "https://www.applesfromny.com/wp-content/uploads/2020/06/SnapdragonNEW.png",
-      "wordImage": "I.jpg"
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/storytelling.JPG",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/I.jpg"
     },
     {
       "": "My books",
@@ -38,8 +38,8 @@
       "Cover color": "white",
       "nth Word": 3,
       "Word": "way",
-      "bookCover": "color.JPG",
-      "wordImage": "way.jpg"
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/color.jpg",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/way.jpg"
     },
     {
       "": "My books",
@@ -47,12 +47,13 @@
       "Author/Editor": "P.F. Kluge",
       "Year published": 1991,
       "Genre": "History/Non-fiction",
-      
       "Type": "Serif",
       "Language": "English",
       "Cover color": "yellow",
       "nth Word": 3,
-      "Word": "Or"
+      "Word": "Or",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/paradise.jpg",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/or.jpg"
     },
     {
       "": "My books",
@@ -60,12 +61,13 @@
       "Author/Editor": "Eri Banno Yoko Ikeda Yutaka Ohno Chikako Shinagawa Kyoko Tokashiki",
       "Year published": 2020,
       "Genre": "Textbook",
-      
       "Type": "Serif",
       "Language": "Japanese/English",
       "Cover color": "orange",
       "nth Word": 3,
-      "Word": "第"
+      "Word": "第",
+      "bookCover": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/I.jpg",
+      "wordImage": "https://QueenyShen.github.io/projects/ElasticCollectoin/book_images/Mine/way.jpg"
     },
     {
       "": "My books",
