@@ -12,7 +12,7 @@
       "Word": "Oh",
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/record.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/oh.jpg"
-    },
+    }, 
     {
       "": "My books",
       "Title": "Your turn - Ways to celebrate life through storytelling",
@@ -139,6 +139,8 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/typefaces.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/necesse.jpg"
     },
+
+
     {
         "": "Friends books",
         "Title": "The Wind-up Bird Chronicle",
@@ -294,6 +296,8 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/da.jpg"
       },
 
+
+
       {
         "": "School library",
         "Title": "Iran: Persian Miniatures - Imperial Library",
@@ -305,9 +309,10 @@
         "Cover color": "white",
         "nth Word": 3,
         "Word": "Baysunqur",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wenrou.jpg",
-        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/di.jpg"
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/iran.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/baysunqur.jpg"
       },
+
       {
         "": "School library",
         "Title": "日本繪卷物全集: 病草紙.餓鬼草紙.地獄草紙\n",
@@ -318,7 +323,9 @@
         "Language": "Japanese",
         "Cover color": "silver/grey",
         "nth Word": 3,
-        "Word": "地"
+        "Word": "地",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/huijuan.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/chi.jpg"
       },
       {
         "": "School library",
@@ -330,7 +337,9 @@
         "Language": "German",
         "Cover color": "blue",
         "nth Word": 3,
-        "Word": "und"
+        "Word": "und",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/dieMode.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/und.jpg"
       },
       {
         "": "School library",
@@ -342,7 +351,9 @@
         "Language": "English",
         "Cover color": "black",
         "nth Word": 3,
-        "Word": "Topographic"
+        "Word": "Topographic",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/maps.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/topographic.jpg"
       },
       {
         "": "School library",
@@ -354,7 +365,9 @@
         "Language": "English",
         "Cover color": "grey",
         "nth Word": 3,
-        "Word": "overcoat"
+        "Word": "overcoat",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/chineseClothing.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/overcoat.jpg"
       },
       {
         "": "School library",
@@ -366,7 +379,9 @@
         "Language": "Korean",
         "Cover color": "white",
         "nth Word": 3,
-        "Word": ""
+        "Word": "",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/korean.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/koreanClothes.jpg"
       },
       {
         "": "School library",
@@ -378,7 +393,9 @@
         "Language": "English",
         "Cover color": "red",
         "nth Word": 3,
-        "Word": ""
+        "Word": "",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/theKimono.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/kimono.jpg"
       },
       {
         "": "School library",
@@ -390,7 +407,9 @@
         "Language": "English",
         "Cover color": "yellow",
         "nth Word": 3,
-        "Word": "Itten"
+        "Word": "Itten",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/bauhaus.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/itten.jpg"
       },
       {
         "": "School library",
@@ -402,7 +421,9 @@
         "Language": "English",
         "Cover color": "white",
         "nth Word": 3,
-        "Word": "autonomous"
+        "Word": "autonomous",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/diller.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/autonomous.jpg"
       },
       {
         "": "School library",
@@ -414,7 +435,9 @@
         "Language": "English",
         "Cover color": "yellow",
         "nth Word": 3,
-        "Word": "social"
+        "Word": "social",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/communityArt.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/social.jpg"
       },
       {
         "": "School library",
@@ -426,7 +449,9 @@
         "Language": "German",
         "Cover color": "orange",
         "nth Word": 6,
-        "Word": "Die"
+        "Word": "Die",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/poelzig.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/die.jpg"
       },
       {
         "": "School library",
@@ -438,7 +463,9 @@
         "Language": "German/English",
         "Cover color": "green",
         "nth Word": 3,
-        "Word": "is"
+        "Word": "is",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/yova.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/is.jpg"
       },
       {
         "": "School library",
@@ -450,7 +477,9 @@
         "Language": "Japanese/English",
         "Cover color": "white",
         "nth Word": 3,
-        "Word": "事"
+        "Word": "事",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/Hasegawa.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/koto.jpg"
       },
       {
         "": "School library",
@@ -462,7 +491,9 @@
         "Language": "Japanese/English",
         "Cover color": "blue/brown",
         "nth Word": 3,
-        "Word": "に"
+        "Word": "に",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/findingArchitecture.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/ni.jpg"
       },
       {
         "": "School library",
@@ -474,7 +505,9 @@
         "Language": "English",
         "Cover color": "yellow",
         "nth Word": 3,
-        "Word": "fool"
+        "Word": "fool",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/45rpm.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/fool.jpg"
       },
       {
         "": "School library",
@@ -486,7 +519,9 @@
         "Language": "English",
         "Cover color": "black",
         "nth Word": 3,
-        "Word": ""
+        "Word": "",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/drawing.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/drawingRestraint.jpg"
       },
       {
         "": "School library",
@@ -498,7 +533,9 @@
         "Language": "English/Portuguese",
         "Cover color": "black/white",
         "nth Word": 6,
-        "Word": "and"
+        "Word": "and",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/barrio.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/and.jpg"
       },
       {
         "": "School library",
@@ -510,7 +547,9 @@
         "Language": "English/Dutch",
         "Cover color": "white",
         "nth Word": 6,
-        "Word": "de"
+        "Word": "de",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/guldenSnede.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/de.jpg"
       },
       {
         "": "School library",
@@ -522,7 +561,9 @@
         "Language": "English/French",
         "Cover color": "Brown",
         "nth Word": 3,
-        "Word": "collection"
+        "Word": "collection",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/conformistes.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/collection.jpg"
       },
       {
         "": "School library",
@@ -534,7 +575,9 @@
         "Language": "Japanese/French",
         "Cover color": "Black",
         "nth Word": 6,
-        "Word": "et"
+        "Word": "et",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/chagall.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/et.jpg"
       },
       {
         "": "School library",
@@ -546,7 +589,9 @@
         "Language": "German",
         "Cover color": "blue",
         "nth Word": 6,
-        "Word": "hin"
+        "Word": "hin",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/lissitzky.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/hin.jpg"
       },
       {
         "": "School library",
@@ -558,7 +603,9 @@
         "Language": "Chinese",
         "Cover color": "black/red",
         "nth Word": 6,
-        "Word": "Sketch"
+        "Word": "Sketch",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/luShengZhong.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/sketch.jpg"
       },
       {
         "": "School library",
@@ -570,7 +617,9 @@
         "Language": "English",
         "Cover color": "white",
         "nth Word": 6,
-        "Word": "Activists"
+        "Word": "Activists",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/graphicDesign.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/activists.jpg"
       },
       {
         "": "School library",
@@ -582,10 +631,14 @@
         "Language": "English",
         "Cover color": "black",
         "nth Word": 6,
-        "Word": "want"
+        "Word": "want",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/elasticCity.jpg",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Library/want.jpg"
 
       },
 
+
+      
       {
         "": "Book store",
         "Title": "상실 수업 상실과 함께 살아가는 법",
@@ -599,6 +652,7 @@
         "Condition": "new",
         "nth Word": 3,
         "Word": "의"
+        
       },
       {
         "": "Book store",
