@@ -734,7 +734,7 @@
         "nth Word": 6,
         "Word": "lebbra",
         "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/nuovaTerra.JPG",
-        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/lebbra.jpg"
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/lebbra.png"
       },
       {
         "place": "Book store",
@@ -781,7 +781,7 @@
         "Condition": "used",
         "nth Word": 3,
         "Word": "than",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/magicBrands.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/magicBrands.png",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/than.png"
       },
       {
@@ -813,7 +813,7 @@
         "Condition": "used",
         "nth Word": 3,
         "Word": "Americans",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/generals.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/generals.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/americans.png"
       },
       {
@@ -829,7 +829,7 @@
         "Condition": "used",
         "nth Word": 6,
         "Word": "sir",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/bridegroom.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/bridegroom.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/sir.png"
       },
       {
@@ -845,7 +845,7 @@
         "Condition": "used",
         "nth Word": 3,
         "Word": "the",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/virture.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/virture.PNG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/virture_the.png"
       },
       {
@@ -861,7 +861,7 @@
         "Condition": "used",
         "nth Word": 6,
         "Word": "Ricardo",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/blackEnsign.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/blackEnsign.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/ricardo.png"
       },
       {
@@ -877,7 +877,7 @@
         "Condition": "used",
         "nth Word": 3,
         "Word": "mind",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/womanInWhite.jpg",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/womanInWhite.JPG",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/mind.png"
       },
       {
@@ -893,8 +893,8 @@
         "Condition": "new",
         "nth Word": 6,
         "Word": "of",
-        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/homegoing.jpg",
-        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/kyeo.jpg"
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/homegoing.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/of.png"
       },
       {
         "place": "Book store",
@@ -908,7 +908,9 @@
         "Cover color": "red",
         "Condition": "used?",
         "nth Word": 3,
-        "Word": "Distress"
+        "Word": "Distress",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/voltaire.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/distress.png"
       },
       {
         "place": "Book store",
@@ -922,7 +924,9 @@
         "Cover color": "beige",
         "Condition": "used",
         "nth Word": 6,
-        "Word": "Louis"
+        "Word": "Louis",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/storiesFromFrench.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/louis.png"
       },
       {
         "place": "Book store",
@@ -936,7 +940,9 @@
         "Cover color": "white",
         "Condition": "new",
         "nth Word": 3,
-        "Word": "glow"
+        "Word": "glow",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/crush.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/glow.png"
       },
       {
         "place": "Book store",
@@ -950,7 +956,9 @@
         "Cover color": "white",
         "Condition": "new",
         "nth Word": 6,
-        "Word": "do"
+        "Word": "do",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/dreamBig.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/do.png"
       },
       {
         "place": "Book store",
@@ -964,7 +972,9 @@
         "Cover color": "pink",
         "Condition": "new",
         "nth Word": 3,
-        "Word": "will"
+        "Word": "will",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/utopia.png",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/utopia_will.png"
       },
       {
         "place": "Book store",
@@ -978,7 +988,9 @@
         "Cover color": "grey",
         "Condition": "new",
         "nth Word": 6,
-        "Word": "Has"
+        "Word": "Has",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/cortazar.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/has.png"
       },
       {
         "place": "Book store",
@@ -992,7 +1004,9 @@
         "Cover color": "black",
         "Condition": "used",
         "nth Word": 3,
-        "Word": "Terror"
+        "Word": "Terror",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/bigPics.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/terror.png"
       },
       {
         "place": "Book store",
@@ -1006,7 +1020,9 @@
         "Cover color": "blue",
         "Condition": "used",
         "nth Word": 6,
-        "Word": "nord"
+        "Word": "nord",
+        "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/Concorde.JPG",
+        "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Bookstore/nord.png"
       },
 
       {
