@@ -1,80 +1,55 @@
-// const renderItems = (collection) => {
-//     // The `ul` where the items will be inserted
-//     const collectionList = document.getElementById('collection')
-  
-//     // Loop through each item in the collection array
-//     collection.forEach(item => {
-//       const listItem = document.createElement('li') // Make the `li`
-//       const itemImage = document.createElement('img') // And an image
-//       itemImage.src = item.bookCover // Set the `src` attribute from the JSON
-  
-//       itemImage.style.position = 'absolute' // Set the position of the image to absolute
 
-//       const container = document.getElementById('collection')
-//       const x = Math.random() * container.offsetWidth
-//       const y = Math.random() * container.offsetHeight
-//       itemImage.style.left = `${x}px`
-//       itemImage.style.top = `${y}px`
-  
-//       listItem.appendChild(itemImage) // And add that too
-//       collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
-//     })
-//   }
-  
-// fetch('collection.json')
-// .then(response => response.json())
-// .then(collection => {
-//     // And passes the data to the function, above!
-//     renderItems(collection) // In reverse order
-// })
+const canvas = document.getElementById('canvas');
+const ctx = canvas.getContext('2d');
+const images = [];
 
 
-const renderItems = (collection, speed) => {
-    // The `ul` where the items will be inserted
-    const collectionList = document.getElementById('collection')
-  
-    // Loop through each item in the collection array
-    collection.forEach(item => {
-      const listItem = document.createElement('li') // Make the `li`
-      const itemImage = document.createElement('img') // And an image
-      itemImage.src = item.bookCover // Set the `src` attribute from the JSON
-  
-      itemImage.style.position = 'absolute' // Set the position of the image to absolute
-  
-      const container = document.getElementById('collection')
-      const x = Math.random() * container.offsetWidth
-      const y = Math.random() * container.offsetHeight
-      itemImage.style.left = `${x}px`
-      itemImage.style.top = `${y}px`
-  
-      listItem.appendChild(itemImage) // And add that too
-      collectionList.appendChild(listItem) // Then add the whole `li` into the `ul`
-  
-      // Set up the image to move at a set speed
-      const dx = Math.random() * 2 - 1 // Random x velocity between -1 and 1
-      const dy = Math.random() * 2 - 1 // Random y velocity between -1 and 1
-      let xPos = x
-      let yPos = y
-      setInterval(() => {
-        xPos += dx * speed // Update x position
-        yPos += dy * speed // Update y position
-        // Check if the image is still within the container
-        if (xPos < 0 || xPos > container.offsetWidth || yPos < 0 || yPos > container.offsetHeight) {
-          // If not, reset its position to a random point inside the container
-          xPos = Math.random() * container.offsetWidth
-          yPos = Math.random() * container.offsetHeight
-        }
-        itemImage.style.left = `${xPos}px`
-        itemImage.style.top = `${yPos}px`
-      }, 50) // Update position every 50 milliseconds
-    })
-  }
-  
-  
-  fetch('collection.json')
-    .then(response => response.json())
-    .then(collection => {
-      // And passes the data to the function, above!
-      renderItems(collection, 0.4) 
-    })
-  
+// Load the image data from a JSON file
+fetch('collection.json')
+  .then(response => response.json())
+  .then(data => {
+    // Loop through each item in the collection and create an Image object for it
+    data.forEach(item => {
+      const img = new Image();
+      img.src = item.bookCover;
+      // When the image is loaded, add it to the images array
+
+      img.onload = () => {
+        images.push({
+          x: Math.random() * canvas.width,
+          y: Math.random() * canvas.height,
+          dx: Math.random() * 2 - 1,
+          dy: Math.random() * 2 - 1,
+          image: img
+        });
+      };
+    });
+  });
+
+function draw() {
+  // Clear the canvas
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Loop through each image and draw it on the canvas
+  images.forEach(image => {
+    ctx.drawImage(image.image, image.x, image.y, 10, 10);
+
+    // Update the image's position
+    image.x += image.dx;
+    image.y += image.dy;
+
+    // Bounce the image off the edges of the canvas
+    if (image.x < 0 || image.x + 10 > canvas.width) {
+      image.dx = -image.dx;
+    }
+    if (image.y < 0 || image.y + 10 > canvas.height) {
+      image.dy = -image.dy;
+    }
+  });
+
+  // Request the next frame
+  requestAnimationFrame(draw);
+}
+
+// Start the animation loop
+requestAnimationFrame(draw);

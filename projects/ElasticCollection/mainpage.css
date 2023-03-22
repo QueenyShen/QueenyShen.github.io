@@ -21,24 +21,6 @@ img{
 	width:5vw;
 }
 
-/* .container {
-	background-color: white;
-	width: 90vw;
-	height: 90vh;
-	position: relative;
-	margin-top: 0;
-	margin-left: 4vw;
-  } */
-
-  /* .container{
-	background-color: white;
-	width: 90vw;
-	height: 90vh;
-	justify-content: center;
-	margin-top: 10vw;
-	position: relative; 
-}
- */
 
 .container{
 	background-color: white;
@@ -74,6 +56,29 @@ img{
 	justify-content: center;
   }
 
+
+
+
+ /* .container {
+	background-color: white;
+	width: 90vw;
+	height: 90vh;
+	position: relative;
+	margin-top: 0;
+	margin-left: 4vw;
+  } */
+
+  /* .container{
+	background-color: white;
+	width: 90vw;
+	height: 90vh;
+	justify-content: center;
+	margin-top: 10vw;
+	position: relative; 
+}
+ */
+ 
+ 
 /* .flex-container {
 	display: flex;
 	flex-wrap: wrap;
