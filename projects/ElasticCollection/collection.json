@@ -1,5 +1,5 @@
 [
-    {
+    {  "id": 0,
       "place": "My books",
       "Title": "Cover Without a Record ",
       "Author/Editor": " Al Filreis",
@@ -13,7 +13,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/record.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/oh.jpg"
     }, 
-    {
+    {  "id": 1,
       "place": "My books",
       "Title": "Your turn - Ways to celebrate life through storytelling",
       "Author/Editor": "Dr.Tyra Manning",
@@ -27,7 +27,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/storytelling.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/I.jpg"
     },
-    {
+    {  "id": 2,
       "place": "My books",
       "Title": "Interaction of color 50th Anniversary Edition",
       "Author/Editor": "Josef Albers",
@@ -42,6 +42,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/way.jpg"
     },
     {
+      "id": 3,
       "place": "My books",
       "Title": "The Edge of Paradise",
       "Author/Editor": "P.F. Kluge",
@@ -56,6 +57,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/or.jpg"
     },
     {
+      "id": 4,
       "place": "My books",
       "Title": "Genki An Integrated Course in Elementary Japanese 3rd Edition",
       "Author/Editor": "Eri Banno Yoko Ikeda Yutaka Ohno Chikako Shinagawa Kyoko Tokashiki",
@@ -70,6 +72,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/dai.jpg"
     },
     {
+      "id": 5,
       "place": "My books",
       "Title": "Fred Tomaselli",
       "Author/Editor": "Tomaselli, Fred; Alisa Tager; David A. Greene",
@@ -83,7 +86,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/tomaselli.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/Kandel.jpg"
     },
-    {
+    { "id": 6,
       "place": "My books",
       "Title": "The New Japanese Painting and Sculpture ",
       "Author/Editor": "William Lieberman",
@@ -98,6 +101,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/from.jpg"
     },
     {
+      "id": 7,
       "place": "My books",
       "Title": "慕夏",
       "Author/Editor": "[日]佐藤之子 著  王语微 译",
@@ -111,7 +115,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/mucha.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/ji.jpg"
     },
-    {
+    { "id": 8,
       "place": "My books",
       "Title": "Travel Guide North America Relais & Chateaux ",
       "Author/Editor": "Philippe Gombert, Brenda Homick, Anna Hahn, Les Digitalistes, Susan Dumas",
@@ -125,7 +129,8 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/travel.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/states.jpg"
     },
-    {
+    { 
+      "id": 9,
       "place": "My books",
       "Title": "New and Recent Typefaces by Hoefler&Co., Eleventh Edition.",
       "Author/Editor": "Jonathan Hoefler",
@@ -142,6 +147,7 @@
 
 
     {
+        "id": 10,
         "place": "Friends books",
         "Title": "The Wind-up Bird Chronicle",
         "Author/Editor": "Haruki Murakami Translator: Jay Rubin",
@@ -155,7 +161,8 @@
         "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wind-upBird.jpg",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wear.jpg"
       },
-      {
+     {
+      "id": 11,
         "place": "Friends books",
         "Title": "Tokyo Ghoul[Illustrations]: Zakki",
         "Author/Editor": "Sui Ishida",
@@ -170,6 +177,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/banquet.jpg"
       },
       {
+        "id": 12,
         "place": "Friends books",
         "Title": "上海字记",
         "Author/Editor": "姜庆共/刘瑞樱",
@@ -184,6 +192,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/zhi.jpg"
       },
       {
+        "id": 13,
         "place": "Friends books",
         "Title": "温柔之乡的梦",
         "Author/Editor": "魏雅华",
