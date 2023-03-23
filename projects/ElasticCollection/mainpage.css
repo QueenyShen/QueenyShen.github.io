@@ -1,14 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
 body {
-	font-family: sans-serif;
-	padding-bottom: 10vh;
-	background-color: black;
-}
-
-
-ul {
-	display: grid;
-	gap: calc(4 * var(--spacing));
-	margin-top: calc(4 * var(--spacing));
+	font-family: 'Poppins', sans-serif;
+	padding-bottom: 5vh;
+	background-color:#1f1f1f;
 }
 
 li {
@@ -16,84 +13,119 @@ li {
 	gap: var(--spacing);
 }
 
-
 img{
 	width:5vw;
 }
 
 
 .container{
-	background-color: white;
+	background-image: url("../ElasticCollection/book_images/spread.png");
+	background-size: cover;
 	/* width: 1300px; 
 	height: 800px; */
 	width: 90vw;
-	height: 90vh;
+	height: 85vh;
 	justify-content: center;
 	position: relative;
-	margin-left: 4vw;
+	margin-left: 5vw;
 	overflow: hidden; /* Add overflow hidden */
+	z-index:-1
 }
 
-
-#heading{
+.header-container{
 	color:white;
-	font-family: Arial, Helvetica, sans-serif;
-	font-weight: 600;
-	font-size: 5vw;
-	padding-left:3vw;
-	margin-bottom:5vw;
-	margin-top: 1vw;;
-	margin-left:1vw;
+	margin-bottom:1vh;
+	margin-top: 1vw;
 }
 
+#heading{	
+	font-weight: 600;
+	text-align: center;
+	font-size: 2.1vw;
+	margin-bottom: 0.5vh;
+}
+
+.button{
+	border:none;
+	outline:none;
+	padding:1vh 1vw;
+	cursor: pointer;
+}
+
+.button:hover{
+	background-color:#888;
+}
+
+.menu-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-menu{
+	margin-top: -3vw;
+	font-size: 1vw ;
+	letter-spacing: 0.2vw;
+	font-weight: 200;
+	width:40vw;
+	margin-left: 4vw;
+}
+
+.left-items{
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	justify-content: space-around;
+}
+
+.right-menu{
+	margin-top: -3vw;
+	font-size: 1vw ;
+	letter-spacing: 0.2vw;
+	font-weight: 200;
+	width:30vw;
+	margin-right: 3.5vw;
+}
+
+.right-items{
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	justify-content: space-around;
+}
   
+
  #collection {
 	display: flex;
 	flex-wrap: wrap;
 	position: relative; 
-	width: 90%;
+	width: 94.5%;
 	height: 85%;
 	justify-content: center;
   }
 
-
-
-
- /* .container {
-	background-color: white;
-	width: 90vw;
-	height: 90vh;
-	position: relative;
-	margin-top: 0;
-	margin-left: 4vw;
-  } */
-
-  /* .container{
-	background-color: white;
-	width: 90vw;
-	height: 90vh;
-	justify-content: center;
-	margin-top: 10vw;
-	position: relative; 
-}
- */
- 
- 
-/* .flex-container {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: left;
-	gap:5vw;
-	align-items: flex-end;
-	margin-left:2vw;
-} */
-
-/* 
-#collection {
-	transition: transform 0.5s ease-in-out;
+/* Modal Styling */
+/* The Modal (background) */
+.modal {
+	display: none; /* Hidden by default */
+	position: fixed; /* Stay in place */
+	z-index: 1; /* Sit on top */
+	padding-top: 100px; /* Location of the box */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
   }
   
-#zoom-area.zoom #collection {
-	transform: scale(4);
-  } */
-
+  /* Modal Content */
+  .modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	max-width: 700px;
+  }
+  
