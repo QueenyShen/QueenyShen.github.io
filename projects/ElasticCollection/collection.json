@@ -206,7 +206,7 @@
         "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wenrou.jpg",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/di.jpg"
       },
-      {
+      { "id": 14,
         "place": "Friends books",
         "Title": "香港现形记",
         "Author/Editor": "伞下的人 ",
@@ -220,7 +220,7 @@
         "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/hk.jpg",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/fang.jpg"
       },
-      {
+      { "id": 15,
         "place": "Friends books",
         "Title": "When Breath Becomes Air",
         "Author/Editor": "Paul Kalanithi",
