@@ -74,15 +74,13 @@ fetch("collection.json")
     show(collection);
   });
 
+  const switchElement = document.querySelector('.switch input[type="checkbox"]');
+  const switchLink = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
 
-  function redirectToLink() {
-    // get the checkbox element
-    var checkBox = document.querySelector('.switch input[type="checkbox"]');
-    // check if checkbox is checked
-    if (checkBox.checked) {
-      // redirect to another link
-      window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html";
-    }
-  }
-  
+  switchElement.addEventListener('click', function() {
+      if(this.checked) {
+          window.location.href = switchLink;
+      }
+      return false;
+  });
   

@@ -61,8 +61,18 @@ fetch('collection.json')
 		renderItems(collection)
 	})
 
+const switchElement = document.querySelector('.switch input[type="checkbox"]');
+const switchLink = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
+  
+switchElement.addEventListener('click', function() {
+		if(this.checked) {
+			window.location.href = switchLink;
+		}
+		return false;
+	});
+	
 
-
+	
 	// const zoomArea = document.getElementById("zoom-area");
 	// const collectionList = document.getElementById('collection');
 	
