@@ -80,7 +80,10 @@ fetch("collection.json")
   switchElement.addEventListener('click', function() {
       if(this.checked) {
           window.location.href = switchLink;
+      } else {
+          window.location.href = '#';
       }
       return false;
   });
+  
   
