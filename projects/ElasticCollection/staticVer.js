@@ -61,16 +61,29 @@ fetch('collection.json')
 		renderItems(collection)
 	})
 
-const checkbox = document.querySelector('input[type="checkbox"]');
-checkbox.addEventListener('change', function() {
-  if (this.checked) {
-    setTimeout(function() {
-      window.location.href = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
-    }, 500); // delay of 400ms to allow for switch animation
-  } else {
-    setTimeout(function() {
-      window.location.href = 'https://https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
-    }, 500); // delay of 400ms to allow for switch animation
+
+const switchInput = document.querySelector('.switch input');
+const redirectTo = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html'; // replace with the name of the HTML page you want to redirect to
+let isAnimating = false;
+
+switchInput.addEventListener('click', () => {
+  if (!isAnimating) {
+    isAnimating = true;
+    switchInput.disabled = true;
+
+    // add animation classes
+    const slider = document.querySelector('.slider');
+    slider.classList.add('slider-animating');
+    slider.addEventListener('animationend', () => {
+      // remove animation classes
+      slider.classList.remove('slider-animating');
+      slider.classList.toggle('round');
+
+      // redirect to another page
+      window.location.href = redirectTo;
+      switchInput.disabled = false;
+      isAnimating = false;
+    });
   }
 });
 
