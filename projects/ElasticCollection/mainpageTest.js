@@ -73,3 +73,16 @@ fetch("collection.json")
   .then((collection) => {
     show(collection);
   });
+
+
+  function redirectToLink() {
+    // get the checkbox element
+    var checkBox = document.querySelector('.switch input[type="checkbox"]');
+    // check if checkbox is checked
+    if (checkBox.checked) {
+      // redirect to another link
+      window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html";
+    }
+  }
+  
+  
