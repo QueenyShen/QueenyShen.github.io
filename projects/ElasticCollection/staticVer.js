@@ -63,8 +63,8 @@ fetch('collection.json')
 
 
 const switchInput = document.querySelector('.switch input');
-const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
-const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
+const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
+const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
 
 function redirectTo(url) {
   // Check if the URL is the same as the current page
