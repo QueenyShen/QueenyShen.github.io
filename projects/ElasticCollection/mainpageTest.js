@@ -75,27 +75,32 @@ fetch("collection.json")
   });
   
   const switchInput = document.querySelector('.switch input');
-  const redirectTo = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html'; // replace with the name of the HTML page you want to redirect to
-  let isAnimating = false;
+  const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
+  const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
   
-  switchInput.addEventListener('click', () => {
-    if (!isAnimating) {
-      isAnimating = true;
-      switchInput.disabled = true;
-  
-      // add animation classes
-      const slider = document.querySelector('.slider');
-      slider.classList.add('slider-animating');
-      slider.addEventListener('animationend', () => {
-        // remove animation classes
-        slider.classList.remove('slider-animating');
-        slider.classList.toggle('round');
-  
-        // redirect to another page
-        window.location.href = redirectTo;
-        switchInput.disabled = false;
-        isAnimating = false;
-      });
+  function redirectTo(url) {
+    // Check if the URL is the same as the current page
+    if (url !== window.location.href) {
+      // Redirect to the new page
+      window.location.href = url;
     }
-  });
+  }
   
+  // Add event listener to switch input
+  switchInput.addEventListener('change', () => {
+    // Add CSS class to trigger animation
+    switchInput.parentElement.classList.add('animate');
+  
+    // Wait for animation to finish
+    setTimeout(() => {
+      // Remove CSS class
+      switchInput.parentElement.classList.remove('animate');
+  
+      // Redirect to the appropriate URL
+      if (switchInput.checked) {
+        redirectTo(url2);
+      } else {
+        redirectTo(url1);
+      }
+    }, 400);
+  });
