@@ -1,13 +1,8 @@
-const show = (collection, filter = "") => {
-  const filteredItems = filter
-    ? collection.filter((item) => item.place === filter)
-    : collection;
-  console.log(collection, "collection");
+const show = (collection) => {
   // Get the `ul` where the items will be inserted
   const collectionList = document.getElementById("collection");
-  collectionList.innerHTML = ""; // Clear all items before showing filtered items
 
-  filteredItems.forEach((item) => {
+  collection.forEach((item) => {
     const listItem = document.createElement("li"); // Make the `li`
     const itemImage = document.createElement("img"); // And an image
     itemImage.src = item.bookCover; // Set the `src` attribute from the JSON
@@ -23,6 +18,7 @@ const show = (collection, filter = "") => {
     itemImage.style.left = `${x}px`
     itemImage.style.top = `${y}px`
 
+    //modal popup function
     itemImage.onclick = function () {
       let clickedItem = item;
       const modal = document.querySelector("#myModal");
