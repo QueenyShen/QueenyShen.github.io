@@ -60,21 +60,20 @@ fetch('collection.json')
 		// And passes the data to the function, above!
 		renderItems(collection)
 	})
-
-const switchElement = document.querySelector('.switch input[type="checkbox"]');
-const switchLink = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
-  
-switchElement.addEventListener('click', function() {
-		if(this.checked) {
-			window.location.href = switchLink;
-		}
-
-		else {
-			window.location.href = '#';
-		}
-		return false;
-	});
 	
+const checkbox = document.querySelector('input[type="checkbox"]');
+checkbox.addEventListener('change', function() {
+  if (this.checked) {
+    setTimeout(function() {
+      window.location.href = 'first.html';
+    }, 400); // delay of 400ms to allow for switch animation
+  } else {
+    setTimeout(function() {
+      window.location.href = 'second.html';
+    }, 400); // delay of 400ms to allow for switch animation
+  }
+});
+
 
 	
 	// const zoomArea = document.getElementById("zoom-area");
