@@ -74,15 +74,46 @@ fetch("collection.json")
     show(collection);
   });
   
-
-const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
-const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
-const switchInput = document.querySelector('.switch input');
-
-switchInput.addEventListener('change', () => {
-  if (switchInput.checked) {
-    window.location.href = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
-  } else {
-    window.location.href = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
+  const switchInput = document.querySelector('.switch input');
+  const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
+  const url = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
+  
+  function redirectTo(url) {
+    // Check if the URL is the same as the current page
+    if (url !== window.location.href) {
+      // Redirect to the new page
+      window.location.href = url;
+    }
   }
-});
+  
+  // Add event listener to switch input
+  switchInput.addEventListener('change', () => {
+    // Add CSS class to trigger animation
+    switchInput.parentElement.classList.add('animate');
+  
+    // Wait for animation to finish
+    setTimeout(() => {
+      // Remove CSS class
+      switchInput.parentElement.classList.remove('animate');
+  
+      // Redirect to the appropriate URL
+      if (switchInput.checked) {
+        redirectTo(url2);
+      } else {
+        redirectTo(url1);
+      }
+    }, 400);
+  });
+
+
+//   const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
+// const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
+// const switchInput = document.querySelector('.switch input');
+
+// switchInput.addEventListener('change', () => {
+//   if (switchInput.checked) {
+//     window.location.href = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
+//   } else {
+//     window.location.href = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
+//   }
+// });
