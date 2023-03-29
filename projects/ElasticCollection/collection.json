@@ -1,5 +1,5 @@
 [
-    {  "id": 0,
+    { 
       "place": "My books",
       "Title": "Cover Without a Record ",
       "Author/Editor": " Al Filreis",
@@ -13,7 +13,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/record.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/oh.jpg"
     }, 
-    {  "id": 1,
+    {  
       "place": "My books",
       "Title": "Your turn - Ways to celebrate life through storytelling",
       "Author/Editor": "Dr.Tyra Manning",
@@ -27,7 +27,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/storytelling.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/I.jpg"
     },
-    {  "id": 2,
+    {  
       "place": "My books",
       "Title": "Interaction of color 50th Anniversary Edition",
       "Author/Editor": "Josef Albers",
@@ -42,7 +42,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/way.jpg"
     },
     {
-      "id": 3,
+      
       "place": "My books",
       "Title": "The Edge of Paradise",
       "Author/Editor": "P.F. Kluge",
@@ -57,7 +57,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/or.jpg"
     },
     {
-      "id": 4,
+     
       "place": "My books",
       "Title": "Genki An Integrated Course in Elementary Japanese 3rd Edition",
       "Author/Editor": "Eri Banno Yoko Ikeda Yutaka Ohno Chikako Shinagawa Kyoko Tokashiki",
@@ -72,7 +72,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/dai.jpg"
     },
     {
-      "id": 5,
+      
       "place": "My books",
       "Title": "Fred Tomaselli",
       "Author/Editor": "Tomaselli, Fred; Alisa Tager; David A. Greene",
@@ -86,7 +86,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/tomaselli.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/Kandel.jpg"
     },
-    { "id": 6,
+    { 
       "place": "My books",
       "Title": "The New Japanese Painting and Sculpture ",
       "Author/Editor": "William Lieberman",
@@ -101,7 +101,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/from.jpg"
     },
     {
-      "id": 7,
+      
       "place": "My books",
       "Title": "慕夏",
       "Author/Editor": "[日]佐藤之子 著  王语微 译",
@@ -115,7 +115,7 @@
       "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/mucha.JPG",
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/ji.jpg"
     },
-    { "id": 8,
+    { 
       "place": "My books",
       "Title": "Travel Guide North America Relais & Chateaux ",
       "Author/Editor": "Philippe Gombert, Brenda Homick, Anna Hahn, Les Digitalistes, Susan Dumas",
@@ -130,7 +130,7 @@
       "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/Mine/states.jpg"
     },
     { 
-      "id": 9,
+      
       "place": "My books",
       "Title": "New and Recent Typefaces by Hoefler&Co., Eleventh Edition.",
       "Author/Editor": "Jonathan Hoefler",
@@ -147,12 +147,12 @@
 
 
     {
-        "id": 10,
+       
         "place": "Friends books",
         "Title": "The Wind-up Bird Chronicle",
         "Author/Editor": "Haruki Murakami Translator: Jay Rubin",
         "YearPublished": 1998,
-        "Genre": "Novel/Science fiction",
+        "Genre":  ["Fiction", "Novel"],
         "Type": "Serif",
         "Language": "English",
         "Covercolor": "pink/red",
@@ -162,7 +162,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wear.jpg"
       },
      {
-      "id": 11,
+      
         "place": "Friends books",
         "Title": "Tokyo Ghoul[Illustrations]: Zakki",
         "Author/Editor": "Sui Ishida",
@@ -177,7 +177,7 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/banquet.jpg"
       },
       {
-        "id": 12,
+      
         "place": "Friends books",
         "Title": "上海字记",
         "Author/Editor": "姜庆共/刘瑞樱",
@@ -192,7 +192,6 @@
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/zhi.jpg"
       },
       {
-        "id": 13,
         "place": "Friends books",
         "Title": "温柔之乡的梦",
         "Author/Editor": "魏雅华",
@@ -206,7 +205,7 @@
         "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/wenrou.jpg",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/di.jpg"
       },
-      { "id": 14,
+      { 
         "place": "Friends books",
         "Title": "香港现形记",
         "Author/Editor": "伞下的人 ",
@@ -220,7 +219,7 @@
         "bookCover": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/hk.jpg",
         "wordImage": "https://QueenyShen.github.io/projects/ElasticCollection/book_images/friends/fang.jpg"
       },
-      { "id": 15,
+      { 
         "place": "Friends books",
         "Title": "When Breath Becomes Air",
         "Author/Editor": "Paul Kalanithi",
@@ -355,7 +354,7 @@
         "Title": "Maps: A Visual Survey and Design Guide",
         "Author/Editor": "Michael and Susan Southworth",
         "YearPublished": 1982,
-        "Genre": "Design/Map",
+        "Genre": "Design",
         "Type": "Sans serif",
         "Language": "English",
         "Covercolor": "black",
@@ -369,7 +368,7 @@
         "Title": "Traditional Chinese Clothing: Costumes, Adornments & Culture",
         "Author/Editor": "Shaorong Yang",
         "YearPublished": 2004,
-        "Genre": "Fashion/History",
+        "Genre": ["Fashion", "History"],
         "Type": "Serif",
         "Language": "English",
         "Covercolor": "grey",
@@ -383,7 +382,7 @@
         "Title": "한국인의 옷",
         "Author/Editor": "조효순 지음",
         "YearPublished": 1995,
-        "Genre": "Fashion/History",
+        "Genre":  ["Fashion", "History"],
         "Type": "Serif",
         "Language": "Korean",
         "Covercolor": "white",
@@ -397,7 +396,7 @@
         "Title": "The Kimono & Western Clothes",
         "Author/Editor": "Masako Shirasu",
         "YearPublished": 1980,
-        "Genre": "Fashion/History",
+        "Genre":  ["Fashion", "History"],
         "Type": "Serif",
         "Language": "English",
         "Covercolor": "red",
@@ -411,7 +410,7 @@
         "Title": "Bauhaus Conflicts 1919-2009: Controversies and Counterparts",
         "Author/Editor": "Edited by Philipp Oswalt. Text by Gerda Breuer, Magdalena Droste, Jörn Etzold.",
         "YearPublished": 2010,
-        "Genre": "Art/History/Exhibition catalogue",
+        "Genre": ["Art", "History"],
         "Type": "Sans serif",
         "Language": "English",
         "Covercolor": "yellow",
@@ -439,7 +438,7 @@
         "Title": "Community Art: The Politics of Trespassing",
         "Author/Editor": "Paul De Bruyne & Pascal Gielen (editors)",
         "YearPublished": 2011,
-        "Genre": "Art/Criticisim",
+        "Genre": "Art",
         "Type": "Serif",
         "Language": "English",
         "Covercolor": "yellow",
@@ -509,7 +508,7 @@
         "Title": "45RPM. A Visual History of the Seven-Inch Record",
         "Author/Editor": "Edited by Spencer Drate",
         "YearPublished": 2002,
-        "Genre": "Art/Design",
+        "Genre": ["Art", "History"],
         "Type": "Sans serif",
         "Language": "English",
         "Covercolor": "yellow",
@@ -524,7 +523,7 @@
         "Author/Editor": "Edited by Hans Ulrich Obrist",
         "YearPublished": 2005,
         "Genre": "Art",
-        "Type": "Serif/Sans serif",
+        "Type": ["Serif","Sans serif"],
         "Language": "English",
         "Covercolor": "black",
         "nthWord": 3,
@@ -539,7 +538,7 @@
         "YearPublished": 2011,
         "Genre": "Art/Exhibitions",
         "Type": "Sans serif",
-        "Language": "English/Portuguese",
+        "Language": ["English" , "Portuguese"],
         "Covercolor": "black/white",
         "nthWord": 6,
         "Word": "and",
@@ -553,7 +552,7 @@
         "YearPublished": 1986,
         "Genre": "Golden section -- Exhibitions, Painting, Sculpture",
         "Type": "Monospace",
-        "Language": "English/Dutch",
+        "Language": ["English" , "Dutch"],
         "Covercolor": "white",
         "nthWord": 6,
         "Word": "de",
@@ -565,9 +564,9 @@
         "Title": "Les non-conformistes : histoire d'une collection russe (The non-conformists : the story of a Russian collection)",
         "Author/Editor": "Andreï Erofeev",
         "YearPublished": 2019,
-        "Genre": "Art/Exhibition catalogs",
+        "Genre": "Art",
         "Type": "Sans serif",
-        "Language": "English/French",
+        "Language": ["English" , "French"],
         "Covercolor": "Brown",
         "nthWord": 3,
         "Word": "collection",
@@ -579,9 +578,9 @@
         "Title": "マルク·シャガール：絵画·雕刻·陶器 : 1920-1983. Marc Chagall : peintures, sculptures, céramiques : 1920-1983.",
         "Author/Editor": "Marc Chagall",
         "YearPublished": 1996,
-        "Genre": "Art/Exhibitions",
+        "Genre": "Art",
         "Type": "Serif",
-        "Language": "Japanese/French",
+        "Language": ["Japanese", "French"],
         "Covercolor": "Black",
         "nthWord": 6,
         "Word": "et",
@@ -593,7 +592,7 @@
         "Title": "El Lissitzky - Der Traum vom Wolkenbügel.",
         "Author/Editor": "Máčel, Otakar",
         "YearPublished": 1991,
-        "Genre": "Art/Architecture",
+        "Genre":  ["Art", "Architecture"],
         "Type": "Sans serif",
         "Language": "German",
         "Covercolor": "blue",
@@ -608,7 +607,7 @@
         "Author/Editor": "Lu ShengZhong (Author), Weiqing (Author), Christophe W. Mao (Author)",
         "YearPublished": 2003,
         "Genre": "Art",
-        "Type": "Serif/Sans serif",
+        "Type": ["Serif", "Sans serif"],
         "Language": "Chinese",
         "Covercolor": "black/red",
         "nthWord": 6,
@@ -621,8 +620,8 @@
         "Title": "Graphic design in the post-digital age : a survey of practices fuelled by creative coding",
         "Author/Editor": "Demian Conrad",
         "YearPublished": 2021,
-        "Genre": "Design/Computer art",
-        "Type": "Serif/Sans serif",
+        "Genre": ["Art", "Design"],
+        "Type": ["Serif", "Sans serif"],
         "Language": "English",
         "Covercolor": "white",
         "nthWord": 6,
@@ -635,7 +634,7 @@
         "Title": "Elastic city : prompts for participatory walks",
         "Author/Editor": "Todd Shalom editor.",
         "YearPublished": 2019,
-        "Genre": "Interactive art/Self help",
+        "Genre": ["Art", "Self-help"],
         "Type": "Sans serif",
         "Language": "English",
         "Covercolor": "black",
@@ -974,9 +973,9 @@
         "Title": "The Utopia of Rules: On Technology, Stupidity, and the Secret Joys of Bureaucracy",
         "Author/Editor": "David Graeber",
         "YearPublished": 2016,
-        "Genre": "Business & Economics/History/Political & Social Science",
+        "Genre": ["Business","History","Political sociology"],
         "Price": 18.99,
-        "Type": "Serif/Sans serif",
+        "Type": ["Serif","Sans serif"],
         "Language": "English",
         "Covercolor": "pink",
         "Condition": "new",
@@ -990,7 +989,7 @@
         "Title": "Que cada cosa cruel sea tú que vuelves ",
         "Author/Editor": "Julio Cortazar",
         "YearPublished": 2018,
-        "Genre": "Spanish Language Nonfiction/Flash Poetry",
+        "Genre": ["Non-fiction", "Poetry"],
         "Price": 6.95,
         "Type": "Serif",
         "Language": "Spanish",
@@ -1022,7 +1021,7 @@
         "Title": "De la place Louis XV à la place de la Concorde",
         "Author/Editor": " Musée Carnavalet",
         "YearPublished": 1987,
-        "Genre": "History/Non-fiction",
+        "Genre":  ["Non-fiction", "History"],
         "Price": 7.5,
         "Type": "Serif",
         "Language": "French",
@@ -1039,7 +1038,7 @@
         "Title": "Murat: Cavalier, marechal de France, prince et roi",
         "Author/Editor": "Marcel Dupont",
         "YearPublished": 1980,
-        "Genre": "History/Non-fiction",
+        "Genre": ["Non-fiction", "History"],
         "Price": 25,
         "Type": "Serf",
         "Language": "French",
@@ -1055,7 +1054,7 @@
         "Title": "Libro RTV 20. El Licenciado Vidriera y otras novelas ejemplares",
         "Author/Editor": "Miguel de Cervantes Saavedra",
         "YearPublished": 1969,
-        "Genre": "Adventure fiction",
+        "Genre": "Fiction",
         "Price": 7.5,
         "Type": "Serif",
         "Language": "Spanish; Castilian",

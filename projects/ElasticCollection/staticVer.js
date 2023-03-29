@@ -20,9 +20,9 @@ const renderItems = (collection) => {
             const modal = document.querySelector("#myModal");
             const modalContent = `<div class="modal-content">
             <span class="close">&times;</span>
-            <h2 id="modalTitle">Title: ${clickedItem.Title}</h2>
-            <p id="modalAuthor">Author: ${clickedItem[`Author/Editor`]}</p>
-            <p id="modalYear">Year Published: ${clickedItem.YearPublished}</p>
+            <h2 id="modalTitle">${clickedItem.Title}</h2>
+            <p id="modalAuthor">${clickedItem[`Author/Editor`]}</p>
+            <p id="modalYear">${clickedItem.YearPublished}</p>
           </div>`;
 			// Add modal content to modal popup
 			modal.innerHTML = modalContent;
@@ -33,7 +33,6 @@ const renderItems = (collection) => {
 			 closeButton.addEventListener("click", () => {
 			   modal.innerHTML = "";
 			   modal.style.zIndex = "-1";
-			
             });
         });
 
@@ -92,6 +91,16 @@ switchInput.addEventListener('change', () => {
     }
   }, 400);
 });
+
+let mybutton = document.getElementById("myBtn");
+const container = document.querySelector(".container");
+
+// When the user clicks on the button, scroll to the top of the container
+function topFunction() {
+  container.scrollTop = 0;
+}
+
+
 
 
 	
