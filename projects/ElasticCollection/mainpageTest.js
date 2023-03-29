@@ -1,12 +1,13 @@
-const show = (collection) => {
+const show = (collection, filter) => {
   // Get the `ul` where the items will be inserted
   const collectionList = document.getElementById("collection");
 
-  collection.forEach((item) => {
+  collection
+  .filter(item => !filter || item.place === filter) // Filter the collection based on the selected filter
+  .forEach((item) => {
     const listItem = document.createElement("li"); // Make the `li`
     const itemImage = document.createElement("img"); // And an image
     itemImage.src = item.bookCover; // Set the `src` attribute from the JSON
-   
 
     itemImage.style.position = "absolute"; // Set the position of the image to absolute
     itemImage.style.cursor = "pointer"; // Set the position of the image to absolute
@@ -27,6 +28,9 @@ const show = (collection) => {
       <h2 id="modalTitle">${clickedItem.Title}</h2>
       <p id="modalAuthor">${clickedItem[`Author/Editor`]}</p>
       <p id="modalYear">${clickedItem.YearPublished}</p>
+      <span id="modalLanguage">Language: ${clickedItem.Language}</span><br>
+      <span id="modalGenre">Genre: ${clickedItem.Genre}</span><br>
+      <span id="modalWord">Word: ${clickedItem.Word}</span>
     </div>`;
       // Add modal content to modal popup
       modal.innerHTML = modalContent;
@@ -65,7 +69,63 @@ const show = (collection) => {
       itemImage.style.top = `${yPos}px`;
     }, 40); // Update position every 30 milliseconds
   });
-};
+};  
+
+const remove = () => {
+  const collectionList = document.getElementById('collection')
+  collectionList.innerHTML = '' // Clear all items from the container
+}
+
+const allButton = document.getElementById("btnAll")
+btnAll.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection) 
+    })
+})
+
+const mineButton = document.getElementById("btnMine")
+mineButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "My books") // Show only items with "place" equal to "My books"
+    })
+})
+
+
+const friendButton = document.getElementById("btnFriends")
+friendButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Friends books")
+    })
+})
+
+const libraryButton = document.getElementById("btnLibrary")
+libraryButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "School library")
+    })
+})
+
+const storeButton = document.getElementById("btnStore")
+storeButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Book store")
+    })
+})
 
 // Show all items when page is first visited
 fetch("collection.json")
@@ -73,7 +133,13 @@ fetch("collection.json")
   .then((collection) => {
     show(collection);
   });
-  
+
+
+const writingMode = document.getElementById("writingMode")
+writingMode.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/writingmode.html"
+})
+
   const switchInput = document.querySelector('.switch input');
   const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
   const url = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
@@ -104,16 +170,3 @@ fetch("collection.json")
       }
     }, 400);
   });
-
-
-//   const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
-// const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
-// const switchInput = document.querySelector('.switch input');
-
-// switchInput.addEventListener('change', () => {
-//   if (switchInput.checked) {
-//     window.location.href = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
-//   } else {
-//     window.location.href = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
-//   }
-// });

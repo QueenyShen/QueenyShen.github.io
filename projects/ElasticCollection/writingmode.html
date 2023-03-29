@@ -5,20 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script defer src="writingmode.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
     <link href="writingmode.css" rel="stylesheet">
     <title>Writing Mode</title>
 </head>
     <body>
-        <main>
-            <div class="reset-Container">
-                <div id="reset" onClick="window.location.href=window.location.href">Reset</div>
+        <div class="header-container">
+            <div id="heading"> 3 6 </div>
+            <div class="menu-container">
+                <div class="left-menu">
+                    <div class="left-items">
+                        <div class="button" id="btnAll">All</div>
+                        <div class="button" id="btnMine">Mine</div>
+                        <div class="button" id="btnFriends">Friends</div>
+                        <div class="button" id="btnLibrary">Library</div>
+                        <div class="button" id="btnStore">Book Store</div>
+                    </div>
+                </div>
+                <div class="right-menu">
+                    <div class="right-items">
+                        <div class="button">About</div>
+                        <div class="button" id="readingMode">Reading Mode</div>
+                    </div>
+                </div>
             </div>
+        </div> 
+        <main>
             <section class="words-menu">
                 <div class="container">
                     <ul id="collection" class="flex-container"></ul> <!-- changed 'div' to 'ul' -->
                 </div>  
             </section>
             <section class="writing-section">
+                <div class="content-container">
+                    <div class="reset-Container">
+                        <div id="reset" onClick="window.location.href=window.location.href">Reset</div>
+                    </div>
+                    <div class="writing-container" id="writing-container">
+                    </div>
+                </div>
             </section>
         </main>
     </body>

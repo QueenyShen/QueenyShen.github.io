@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 html { height: 100%; }
 
 body {
-    background-color: #1f1f1f;
+    
+    background-color: #2c2c2c;
+    font-family: 'Poppins', sans-serif;
     height: 100%;
     margin: 0;
     overflow: hidden;
@@ -9,18 +14,17 @@ body {
 
 main {
     margin: 0;
-    height: 100%;
+    height: 90%;
 }
 
 img {
-    width: 5vw;
-    max-height: 10vh;
+    max-width: 10vw;
+    max-height: 5vh;
+    margin:0;
 }
 
 ul {
     display: grid;
-    gap: calc(4 * var(--spacing));
-    margin-top: calc(4 * var(--spacing));
 }
 
 li {
@@ -29,34 +33,110 @@ li {
 }
 
 
+/* header css */
+.header-container{
+	color:white;
+	margin-bottom:1vh;
+	margin-top: 1vw;
+}
+
+#heading{	
+	font-weight: 600;
+	text-align: center;
+	font-size: 2.1vw;
+}
+
+.menu-container{
+	display: flex;
+	justify-content: space-between;
+}
+
+.left-menu{
+	margin-top: -2.2vw;
+	font-size: 1vw ;
+	letter-spacing: 0.2vw;
+	font-weight: 200;
+	width:35vw;
+	margin-left: 4vw;
+}
+
+.left-items{
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+	justify-content: space-around;
+}
+
+.right-menu{
+	margin-top: -2.2vw;
+	font-size: 1vw ;
+	letter-spacing: 0.2vw;
+	font-weight: 200;
+	width:18vw;
+	margin-right: 2.5vw;
+}
+
+.right-items{
+	display: flex;
+	flex-direction: row;
+	text-align: right;
+	justify-content: space-around;
+}
+
 
 .words-menu {
     float: left;
     overflow-y: auto;
-    width: 25%;
+    width: 20%;
     height: 100%;
+    margin-left: 2.5vw;
+    margin-top: 3vh;
 }
+
+.container {
+    max-width: 30vw;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+    gap: 2vw;
+    align-items: flex-end;
+    overflow-y: scroll; 
+}
+
 
 .writing-section {
     float: right;
     width: 75%;
 }
 
-.container {
-    max-width: 30vw;
-    margin-top: 5vh;
+.content-container{
+    background-color: #ffffff;
+    opacity: 1;
+    background-size: 50px 50px;
+    background-image:  repeating-linear-gradient(0deg, #a8a8a8, #a8a8a8 2.5px, #ffffff 2.5px, #ffffff);
+	width: 70vw;
+	height: 85vh;
+	position: absolute;
+	margin-left: 1vw;
+    margin-top: 3vh;
+	overflow-y: scroll;
 }
 
-.flex-container {
-    display: flex;
+.writing-container{
+    display:flex;
     flex-wrap: wrap;
-    justify-content: space-around;
-    justify-content: left;
-    gap: 2vw;
-    align-items: flex-end;
-    margin-left: 2vw;
-    overflow-y: scroll; /* Add this line */
-}
+    gap:1vw;
+	margin-top: 7vh;
+	width: 69vw;
+	height: 85vh;
+	position: relative;
+	margin-left: 1vw;
+ }
 
 .reset-Container {
     display: flex;
@@ -68,7 +148,7 @@ li {
 #reset {
     position: absolute;
     right:2vw;
-    margin-top: 5vh;
+    margin-top: 2vh;
     border: none;
     color: #f8f5f0;
     background-color: gray;
@@ -85,3 +165,15 @@ li {
     background-color: #f8f5f0;
 }
 
+/* css for buttons in header */
+.button{
+	border:none;
+	outline:none;
+	padding:1vh 1vw;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.button:hover{
+	background-color:#888;
+}

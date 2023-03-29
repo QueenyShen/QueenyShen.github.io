@@ -19,6 +19,10 @@ img{
 	width:5vw;
 }
 
+span{
+	font-size:0.9vw;
+}
+
 /* content container  */
 .container{
 	background-image: url("../ElasticCollection/book_images/spread.png");
@@ -95,7 +99,7 @@ img{
   
 .myimg{
 	cursor: pointer;
-
+	box-shadow: 10px 10px 5px #8888
 }
 
 

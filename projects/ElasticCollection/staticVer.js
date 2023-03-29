@@ -23,6 +23,9 @@ const renderItems = (collection) => {
             <h2 id="modalTitle">${clickedItem.Title}</h2>
             <p id="modalAuthor">${clickedItem[`Author/Editor`]}</p>
             <p id="modalYear">${clickedItem.YearPublished}</p>
+            <span id="modalLanguage">Language: ${clickedItem.Language}</span><br>
+            <span id="modalGenre">Genre: ${clickedItem.Genre}</span><br>
+            <span id="modalWord">Word: ${clickedItem.Word}</span>
           </div>`;
 			// Add modal content to modal popup
 			modal.innerHTML = modalContent;
@@ -52,6 +55,73 @@ function shuffleArray(array) {
     return array;
 }
 
+
+const remove = () => {
+  const collectionList = document.getElementById('collection')
+  collectionList.innerHTML = '' // Clear all items from the container
+}
+
+const show = (collection, category) => {
+  // Filter the collection based on the selected category
+  const filteredCollection = category ? collection.filter(item => item.place === category) : collection;
+
+  // Render the filtered items
+  renderItems(filteredCollection);
+}
+
+
+const allButton = document.getElementById("btnAll")
+btnAll.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection) 
+    })
+})
+
+const mineButton = document.getElementById("btnMine")
+mineButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "My books") // Show only items with "place" equal to "My books"
+    })
+})
+
+
+const friendButton = document.getElementById("btnFriends")
+friendButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Friends books")
+    })
+})
+
+const libraryButton = document.getElementById("btnLibrary")
+libraryButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "School library")
+    })
+})
+
+const storeButton = document.getElementById("btnStore")
+storeButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Book store")
+    })
+})
+
+
 // Fetch gets your JSON file…
 fetch('collection.json')
 	.then(response => response.json())
@@ -59,6 +129,12 @@ fetch('collection.json')
 		// And passes the data to the function, above!
 		renderItems(collection)
 	})
+
+const writingMode = document.getElementById("writingMode")
+writingMode.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/writingmode.html"
+})
+
 
 
 const switchInput = document.querySelector('.switch input');
