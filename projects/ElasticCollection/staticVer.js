@@ -66,13 +66,11 @@ const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.
 const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
 
 function redirectTo(url) {
-  // Check if the URL is the same as the current page
   if (url !== window.location.href) {
     // Redirect to the new page
     window.location.href = url;
   }
 }
-
 // Add event listener to switch input
 switchInput.addEventListener('change', () => {
   // Add CSS class to trigger animation
@@ -91,6 +89,7 @@ switchInput.addEventListener('change', () => {
     }
   }, 400);
 });
+
 
 let mybutton = document.getElementById("myBtn");
 const container = document.querySelector(".container");
