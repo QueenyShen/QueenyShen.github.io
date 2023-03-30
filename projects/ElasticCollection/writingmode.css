@@ -128,10 +128,7 @@ li {
 }
 
 .writing-container{
-    display:flex;
-    flex-wrap: wrap;
-    gap:1vw;
-	margin-top: 7vh;
+	margin-top: 7.5vh;
 	width: 69vw;
 	height: 85vh;
 	position: relative;
