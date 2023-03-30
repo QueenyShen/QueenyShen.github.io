@@ -75,10 +75,84 @@ const renderItems = (collection) => {
   });
 
 
-const writingMode = document.getElementById("readingMode")
-writingMode.addEventListener('click', () => {
+const readingMode = document.getElementById("readingMode")
+readingMode.addEventListener('click', () => {
   window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html"
 })
+
+const remove = () => {
+  const collectionList = document.getElementById('collection')
+  collectionList.innerHTML = '' // Clear all items from the container
+}
+
+const show = (collection, category) => {
+  // Filter the collection based on the selected category
+  const filteredCollection = category ? collection.filter(item => item.place === category) : collection;
+
+  // Render the filtered items
+  renderItems(filteredCollection);
+}
+
+
+const allButton = document.getElementById("btnAll")
+btnAll.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection) 
+    })
+})
+
+const mineButton = document.getElementById("btnMine")
+mineButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "My books") // Show only items with "place" equal to "My books"
+    })
+})
+
+
+const friendButton = document.getElementById("btnFriends")
+friendButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Friends books")
+    })
+})
+
+const libraryButton = document.getElementById("btnLibrary")
+libraryButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "School library")
+    })
+})
+
+const storeButton = document.getElementById("btnStore")
+storeButton.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Book store")
+    })
+})
+
+
+// Fetch gets your JSON file…
+fetch('collection.json')
+	.then(response => response.json())
+	.then(collection => {
+		// And passes the data to the function, above!
+		renderItems(collection)
+	})
 
   
   
