@@ -57,7 +57,7 @@ li {
 	letter-spacing: 0.2vw;
 	font-weight: 200;
 	width:35vw;
-	margin-left: 4vw;
+	margin-left: 5vw;
 }
 
 .left-items{
@@ -73,7 +73,7 @@ li {
 	letter-spacing: 0.2vw;
 	font-weight: 200;
 	width:18vw;
-	margin-right: 2.5vw;
+	margin-right: 3.9vw;
 }
 
 .right-items{
@@ -90,7 +90,7 @@ li {
     width: 20%;
     height: 100%;
     margin-left: 2.5vw;
-    margin-top: 3vh;
+    margin-top: 0.2vh;
 }
 
 .container {
@@ -118,14 +118,19 @@ li {
     background-color: #ffffff;
     opacity: 1;
     background-size: 50px 50px;
-    background-image:  repeating-linear-gradient(0deg, #a8a8a8, #a8a8a8 2.5px, #ffffff 2.5px, #ffffff);
+    background-image: repeating-linear-gradient(0deg, #a8a8a8, #a8a8a8 2.5px, #ffffff 2.5px, #ffffff);
 	width: 70vw;
 	height: 85vh;
 	position: absolute;
 	margin-left: 1vw;
-    margin-top: 3vh;
+    margin-top: 0.2vh;
 	overflow-y: scroll;
 }
+
+.content-container.hovered {
+    background-image: repeating-linear-gradient(0deg, #d4c99f, #d4c99f 2.5px, #f1e7c4 2.5px, #f1e7c4);
+  }
+
 
 .writing-container{
 	margin-top: 7.5vh;
@@ -143,9 +148,9 @@ li {
 }
 
 #reset {
-    position: absolute;
-    right:2vw;
-    margin-top: 2vh;
+    position: fixed;
+    margin-right: 2.5vw;
+    margin-top: 3vh;
     border: none;
     color: #f8f5f0;
     background-color: gray;

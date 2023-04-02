@@ -135,6 +135,10 @@ writingMode.addEventListener('click', () => {
   window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/writingmode.html"
 })
 
+const about = document.getElementById("about")
+about.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
+})
 
 
 const switchInput = document.querySelector('.switch input');
