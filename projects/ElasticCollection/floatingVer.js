@@ -43,6 +43,7 @@ const show = (collection, filter) => {
          modal.style.zIndex = "-1";
 
         });
+        itemImage.remove();
       };
       
     listItem.appendChild(itemImage); // And add that too
@@ -91,7 +92,7 @@ mineButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
+      remove()
       show(collection, "My books") // Show only items with "place" equal to "My books"
     })
 })
@@ -102,7 +103,7 @@ friendButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
+      remove() 
       show(collection, "Friends books")
     })
 })
@@ -112,7 +113,7 @@ libraryButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
+      remove() 
       show(collection, "School library")
     })
 })
@@ -122,7 +123,7 @@ storeButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
+      remove() 
       show(collection, "Book store")
     })
 })
