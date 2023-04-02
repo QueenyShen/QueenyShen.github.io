@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+html {
+    height: 100%;
+    overflow: hidden;
+  }
+  body {
+    background: #2c2c2c;
+    margin: 0;
+    width: 100%;
+    height: 90%;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: medium;
+    font-weight: 400;
+  }
+  
+  h1{
+    text-align: right;
+    margin-right:0;
+    margin-top:5vh;
+    font-size: 5vw;
+    font-weight: 300;
+    letter-spacing: 1vw;
+  }
+
+  h3{
+    font-weight: 400;
+    letter-spacing: 0.3vw;
+  }
+  
+  p{
+    font-weight: 300;
+    text-align: left;
+    font-size: 1vw;
+  }
+
+  #nextPage{
+    position:static;
+    margin-top:65vh;
+    margin-right:0.2vw;
+    text-align: right;
+  }
+  #nextPage2{
+    position:static;
+    margin-top:3.5vh;
+    margin-right:0.2vw;
+    text-align: right;
+    font-weight: 400;
+  }
+
+  #nextPage2:hover{
+    color:#888;
+  }
+
+  #small{
+    font-size: small;
+    color:#888;
+    
+  }
+  .scene {
+      width: 45%;
+      height: 90%;
+      margin: 5% 5% 5% 50%;
+    
+    perspective: 1000px;
+  }
+  
+  .book {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+    transform-style: preserve-3d;
+  }
+  
+  .page {
+    cursor: pointer;
+    position: absolute;
+    color: black;
+    width: 100%;
+    height: 100%;
+  
+    transition: 1.5s transform;
+    transform-style: preserve-3d;  
+    transform-origin: left center;
+  }
+  .front,
+  .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 2vh 2vw 2vw;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    background: -webkit-gradient(linear, 0% 0%, 100% 100%, from(#FFFFFF), to(#CCCCCC));
+    background: linear-gradient(to bottom right, #fff, #ccc);
+    line-height: 3vh;
+  }
+  .back {
+    transform: rotateY(180deg);
+  }
+  
+  .page.active {
+    z-index: 1;
+  }
+  .page.flipped {
+    transform: rotateY(-180deg);
+  }
+  .page.flipped:last-of-type {
+    z-index: 1;
+  }
+/*   
+  p {
+    margin: 0 0 0.1em;
+    text-indent: 1em;
+  } */
+  
+  .qr {
+    margin: 50px auto;
+    max-width: 50%;
+  }
