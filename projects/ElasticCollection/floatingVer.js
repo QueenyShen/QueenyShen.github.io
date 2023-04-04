@@ -28,6 +28,7 @@ const show = (collection, filter) => {
       <h2 id="modalTitle">${clickedItem.Title}</h2>
       <p id="modalAuthor">${clickedItem[`Author/Editor`]}</p>
       <p id="modalYear">${clickedItem.YearPublished}</p>
+      <p id="modalPrice" id="modalCondition">${clickedItem.Price}  &nbsp${clickedItem.Condition}</p>
       <span id="modalLanguage">Language: ${clickedItem.Language}</span><br>
       <span id="modalGenre">Genre: ${clickedItem.Genre}</span><br>
       <span id="modalWord">Word: ${clickedItem.Word}</span>

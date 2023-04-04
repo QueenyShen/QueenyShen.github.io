@@ -23,6 +23,7 @@ const renderItems = (collection) => {
             <h2 id="modalTitle">${clickedItem.Title}</h2>
             <p id="modalAuthor">${clickedItem[`Author/Editor`]}</p>
             <p id="modalYear">${clickedItem.YearPublished}</p>
+            <p id="modalPrice" id="modalCondition">${clickedItem.Price}  &nbsp${clickedItem.Condition}</p>
             <span id="modalLanguage">Language: ${clickedItem.Language}</span><br>
             <span id="modalGenre">Genre: ${clickedItem.Genre}</span><br>
             <span id="modalWord">Word: ${clickedItem.Word}</span>
@@ -142,35 +143,36 @@ mobileMine.addEventListener('click', () => {
       show(collection, "My books")
     })
 })
-const mobileFriends = document.getElementById("mobileFriends")
+
+const  mobileFriends = document.getElementById("mobileFriends")
 mobileFriends.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
+      remove()
       show(collection, "Friends books")
     })
 })
-const mobileLibrary = document.getElementById("mobileibrary")
+
+const  mobileLibrary = document.getElementById("mobileLibrary")
 mobileLibrary.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
+      remove()
       show(collection, "School library")
     })
 })
 
-const mobileStore = document.getElementById("mobileStore")
+const  mobileStore = document.getElementById("mobileStore")
 mobileStore.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
-      show(collection, "Book store")
+      remove()
+      show(collection, "Book Store")
     })
 })
-
 
 
 // Fetch gets your JSON file…
@@ -191,15 +193,14 @@ about.addEventListener('click', () => {
   window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
 })
 
-// mobile ver buttons
-const mobileAbout = document.getElementById("mobileAbout")
-mobileAbout.addEventListener('click', () => {
-  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
-})
-
 const mobileWriting = document.getElementById("mobileWriting")
 mobileWriting.addEventListener('click', () => {
   window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/writingmode.html"
+})
+
+const mobileAbout = document.getElementById("mobileAbout")
+mobileAbout.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
 })
 
 
