@@ -10,11 +10,13 @@
 </head>
 <body>
     <div class="header-container">
-        <div id="heading"> 3 6 </div>
+        <div class="heading-container">
+            <div id="heading"> 3 6 </div>
+        </div>
         <div class="menu-container">
             <div class="left-menu">
                 <div class="left-items">
-                    <div class="button"  id="btnAll">All</div>
+                    <div class="button" id="btnAll">All</div>
                     <div class="button" id="btnMine">Mine</div>
                     <div class="button" id="btnFriends">Friends</div>
                     <div class="button" id="btnLibrary">Library</div>
@@ -29,18 +31,42 @@
             </div>
         </div>
     </div>  
-        <!-- <div id="zoom-area">
-            <div id="collection" class="flex-container"></div>
-        </div> -->
-        <div class="container">
-            <div id="collection" class="image-container"></div>
-            <label class="switch">
-                <input type="checkbox">
-                <span class="slider round"></span>
-            </label>
-            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+
+    <header class="header">
+        <div id="mobile-heading"> 3 6 </div>
+
+        <div class="mobile-icons">
+            <div class="mobile-filter button">
+                Collection
+              </div>  
+            <div class="mobile-filter button a" id="mobileAbout">About</div>
+            <div class=" mobile-filter button" id="writingMode">Writing Mode</div>
         </div>
 
-        <div id="myModal" class="modal">
+        <ul class="mobile-navigation">
+          <li class="filter-item" id="mobileAll">All</li>
+          <li class="filter-item"id="mobileMine">Mine</li>
+          <li class="filter-item" id="mobileFriends">Friends</li>
+          <li class="filter-item" id="mobileLibrary">Library</li>
+          <li class="filter-item" id="mobileStore">Book Store</li>
+        </ul>
+      </header>
+
+    <div class="container">
+        <div id="collection" class="image-container"></div>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider round"></span>
+        </label>
+        <div class="topButtonContainer">
+            <button onclick="topFunction()" id="myBtn" title="Go to top">Back to top</button>
+        </div>
+    </div>
+
+    <div id="myModal" class="modal">
 </body>
 </html>
+
+  <!-- <div id="zoom-area">
+            <div id="collection" class="flex-container"></div>
+        </div> -->

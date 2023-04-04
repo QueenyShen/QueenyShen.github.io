@@ -121,6 +121,57 @@ storeButton.addEventListener('click', () => {
     })
 })
 
+// mobile version filter
+
+const mobileAll = document.getElementById("mobileAll")
+mobileAll.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection) 
+    })
+})
+
+const  mobileMine = document.getElementById("mobileMine")
+mobileMine.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, "My books")
+    })
+})
+const mobileFriends = document.getElementById("mobileFriends")
+mobileFriends.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Friends books")
+    })
+})
+const mobileLibrary = document.getElementById("mobileibrary")
+mobileLibrary.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "School library")
+    })
+})
+
+const mobileStore = document.getElementById("mobileStore")
+mobileStore.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Book store")
+    })
+})
+
+
 
 // Fetch gets your JSON file…
 fetch('collection.json')
@@ -140,10 +191,22 @@ about.addEventListener('click', () => {
   window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
 })
 
+// mobile ver buttons
+const mobileAbout = document.getElementById("mobileAbout")
+mobileAbout.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
+})
+
+const mobileWriting = document.getElementById("mobileWriting")
+mobileWriting.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/writingmode.html"
+})
+
+
 
 const switchInput = document.querySelector('.switch input');
 const url1 = 'https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html';
-const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/mainpageTest.html';
+const url2 = 'https://QueenyShen.github.io/projects/ElasticCollection/floatingVer.html';
 
 function redirectTo(url) {
   if (url !== window.location.href) {
@@ -180,23 +243,28 @@ function topFunction() {
 }
 
 
-//mobile responsive layout
-let toggleMenu = document.querySelector(".mobile-menu");
+let toggleFilter = document.querySelector(".mobile-filter");
 let headerStatus = document.querySelector(".header");
+let filterItems = document.querySelectorAll(".filter-item");
 
-// when user clicks on "menu", open and close the mobile navigation
-toggleMenu.addEventListener( "click", () => {
-    if (headerStatus.classList.contains("open")) {
-      headerStatus.classList.remove("open");
-    } else {
-      headerStatus.classList.add("open");
-    }
-  },
-  false
-);
+//open and close menu
+toggleFilter.addEventListener("click", () => {
+  if (headerStatus.classList.contains("open")) {
+    headerStatus.classList.remove("open");
+  } else {
+    headerStatus.classList.add("open");
+  }
+});
+
+// add event listener to each menu item
+filterItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    headerStatus.classList.remove("open");
+  });
+});
 
 
-	
+
 	// const zoomArea = document.getElementById("zoom-area");
 	// const collectionList = document.getElementById('collection');
 	

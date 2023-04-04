@@ -119,6 +119,82 @@ storeButton.addEventListener('click', () => {
     })
 })
 
+  let toggleFilter = document.querySelector(".mobile-filter");
+  let headerStatus = document.querySelector(".header");
+  let filterItems = document.querySelectorAll(".filter-item");
+  
+  //open and close menu
+  toggleFilter.addEventListener("click", () => {
+    if (headerStatus.classList.contains("open")) {
+      headerStatus.classList.remove("open");
+    } else {
+      headerStatus.classList.add("open");
+    }
+  });
+
+// mobile ver buttons
+const mobileAbout = document.getElementById("mobileAbout")
+mobileAbout.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
+})
+
+const mobileReading = document.getElementById("mobileReading")
+mobileReading.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html"
+})
+
+
+// mobile version filter
+
+const mobileAll = document.getElementById("mobileAll")
+mobileAll.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection) 
+    })
+})
+
+const  mobileMine = document.getElementById("mobileMine")
+mobileMine.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, "My books")
+    })
+})
+const mobileFriends = document.getElementById("mobileFriends")
+mobileFriends.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Friends books")
+    })
+})
+const mobileLibrary = document.getElementById("mobileLibrary")
+mobileLibrary.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "School library")
+    })
+})
+
+const mobileStore = document.getElementById("mobileStore")
+mobileStore.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove() // Clear all items from the container
+      show(collection, "Book store")
+    })
+})
+
+
 
 // Fetch gets your JSON file…
 fetch('collection.json')
@@ -127,18 +203,6 @@ fetch('collection.json')
 		// And passes the data to the function, above!
 		renderItems(collection)
 	})
-
-  
-  
-  // Fetch gets your JSON file…
-  fetch('collection.json')
-    .then(response => response.json())
-    .then(collection => {
-      renderItems(collection)
-    })
-  
-
-
 
 
 // const renderItems = (collection) => {
