@@ -373,9 +373,22 @@ span{
 		margin-bottom:7vh;
 	}
 
+	.modal{
+		margin-top: 25vh;
+	}
+
 	.modal-content{
 		width: 60vw;
-		padding: 20px;
+	}
+
+	h2{
+		font-size: 5vw;
+	}
+	p{
+		font-size: 4vw;
+	}
+	span{
+		font-size: 3vw;
 	}
 
 }

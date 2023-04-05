@@ -45,10 +45,24 @@ span{
 	margin-top: 1vw;
 }
 
-#heading{	
+.headingBox{
+	display: flex;
+	justify-content: center;
+}
+
+.title{
 	font-weight: 600;
-	text-align: center;
-	font-size: 2.1vw;
+    text-align: center;
+    font-size: 2.1vw;
+    z-index: 999;
+}
+
+#heading{    
+	cursor: pointer;
+}
+
+#heading:hover{
+	color:#888
 }
 
 .menu-container{
@@ -87,6 +101,75 @@ span{
 	text-align: right;
 	justify-content: space-around;
 }
+
+/* specific filters */
+#wrap {
+	display: flex;
+	z-index: 99999;
+	font-weight: 200;
+	
+  }
+  
+  .filter-container {
+	display: flex;
+	margin-top: 1.5vh;
+	justify-content: space-evenly;
+	flex-direction: column;
+	background-color: #2C2C2C;
+	padding: 2vh 2vw;
+	position: absolute;
+	z-index: 99999;
+	width: 30vw;
+	height: 40vh;
+	top:15vw;
+	left: 51.5vw;
+  transform: translate(-50%, -50%);
+  }
+  
+  .filterTitles {
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: left;
+  }
+  
+  .filterType {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-size: 1vw;
+	letter-spacing: 0.2vw;
+	font-weight: 300;
+  }
+  
+  .filter {
+	display: flex;
+	top: 0;
+	padding-top: 0.5vw;
+	flex-direction: row;
+	text-align: left;
+	font-size: 0.9vw;
+	justify-content: space-between;
+  }
+.g{
+	margin-left:-1.8vw;
+}
+
+/* filter buttons */
+
+.button2{
+	border:none;
+	outline:none;
+	padding:0.3vh 0.1vw;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.button2:hover{
+	background-color:#888;
+}
+
 
  #collection {
 	display: flex;
