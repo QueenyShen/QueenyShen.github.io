@@ -87,16 +87,25 @@ btnAll.addEventListener('click', () => {
     })
 })
 
-const mineButton = document.getElementById("btnMine")
-mineButton.addEventListener('click', () => {
+//my books
+const mybook = (item) => {
+  return item.place =="My books";
+};
+
+const btnMine = document.getElementById("btnMine")
+btnMine.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
       remove()
-      show(collection, "My books") // Show only items with "place" equal to "My books"
+      show(collection, mybook) // Show only items with "place" equal to "My books"
     })
 })
 
+//friends books
+const friendsBooks = (item) => {
+  return item.place =="Friends books";
+};
 
 const friendButton = document.getElementById("btnFriends")
 friendButton.addEventListener('click', () => {
@@ -104,9 +113,14 @@ friendButton.addEventListener('click', () => {
     .then(response => response.json())
     .then(collection => {
       remove() 
-      show(collection, "Friends books")
+      show(collection, friendsBooks)
     })
 })
+
+//library books
+const libraryBooks = (item) => {
+  return item.place =="School library";
+};
 
 const libraryButton = document.getElementById("btnLibrary")
 libraryButton.addEventListener('click', () => {
@@ -114,17 +128,22 @@ libraryButton.addEventListener('click', () => {
     .then(response => response.json())
     .then(collection => {
       remove() 
-      show(collection, "School library")
+      show(collection, libraryBooks)
     })
 })
 
+
+//store books
+const storeBooks = (item) => {
+  return item.place =="Book store";
+};
 const storeButton = document.getElementById("btnStore")
 storeButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
       remove() 
-      show(collection, "Book store")
+      show(collection, storeBooks)
     })
 })
 
