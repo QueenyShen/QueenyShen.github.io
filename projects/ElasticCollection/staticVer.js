@@ -170,7 +170,7 @@ mobileStore.addEventListener('click', () => {
     .then(response => response.json())
     .then(collection => {
       remove()
-      show(collection, "Book Store")
+      show(collection, "Book store")
     })
 })
 
