@@ -1,52 +1,62 @@
 const renderItems = (collection) => {
-    const collectionList = $('#collection');
+  const collectionList = $('#collection');
   
-    // Shuffle the collection array
-    const shuffledCollection = shuffleArray(collection);
+  // Shuffle the collection array
+  const shuffledCollection = shuffleArray(collection);
   
-    shuffledCollection.forEach(item => {
-      const listItem = $('<li></li>'); // create the `li`
-      const itemImage = $('<img>').attr('src', item.wordImage); // And an image with `src` attribute from the JSON
+  shuffledCollection.forEach(item => {
+    const listItem = $('<li></li>'); // create the `li`
+    const itemImage = $('<img>').attr('src', item.wordImage); // And an image with `src` attribute from the JSON
   
-      // Make the image draggable
-      itemImage.draggable({
-        helper: 'clone',
-        containment: 'body',
-        appendTo: 'body'
-      });
-  
-      listItem.append(itemImage); // Add the image to the `li`
-      collectionList.append(listItem); // Then add the whole `li` into the `ul`
-    })  
-  }
-  
-  // Shuffle array function
-  function shuffleArray(array) {
-    for (let i = array.length - 1; i > 0; i--) {
-      const j = Math.floor(Math.random() * (i + 1));
-      [array[i], array[j]] = [array[j], array[i]];
-    }
-    return array;
-  }
-  
-
-  $(function() {
-    const contentContainer = $('.content-container');
-    $('#writing-container').droppable({
-      drop: function(event, ui) {
-        if (ui.draggable.is('img')) { // Check if the dropped item is an image
-          contentContainer.removeClass('hovered'); // Remove the background color
-        }
-        $(this).append(ui.draggable); // Append the dragged item to the writing container
-      },
-      over: function(event, ui) {
-        contentContainer.addClass('hovered'); // Add the class to the content container when the draggable item is hovered
-      },
-      out: function(event, ui) {
-        contentContainer.removeClass('hovered'); // Remove the class iamge is no longer hovered over the writing container
-      }
+    // Make the image draggable
+    itemImage.draggable({
+      helper: 'clone',
+      containment: 'body',
+      appendTo: 'body'
     });
+  
+    listItem.append(itemImage); // Add the image to the `li`
+    collectionList.append(listItem); // Then add the whole `li` into the `ul`
+    
+    // New function for small screens: Remove word image from words menu and display in content container on click
+    if (window.innerWidth < 800) {
+      itemImage.click(function() {
+        $(this).remove(); // Remove the word image from the words menu
+        $('#writing-container').append($(this)); // Display the word image in the content container
+      });
+    }
+  });  
+};
+
+// Shuffle array function
+function shuffleArray(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+}
+
+// Highlight container/drop function for desktop
+$(function() {
+  const contentContainer = $('.content-container');
+  $('#writing-container').droppable({
+    drop: function(event, ui) {
+      if (ui.draggable.is('img')) { // Check if the dropped item is an image
+        contentContainer.removeClass('hovered'); // Remove the background color
+      }
+      $(this).append(ui.draggable); // Append the dragged item to the writing container
+    },
+    over: function(event, ui) {
+      contentContainer.addClass('hovered'); // Add the class to the content container when the draggable item is hovered
+    },
+    out: function(event, ui) {
+      contentContainer.removeClass('hovered'); // Remove the class when mouse is no longer hovered over the writing container
+    }
   });
+});
+
+
 
 
 const readingMode = document.getElementById("readingMode")
@@ -59,6 +69,8 @@ const remove = () => {
   collectionList.innerHTML = '' // Clear all items from the container
 }
 
+
+//filters
 const show = (collection, category) => {
   // Filter the collection based on the selected category
   const filteredCollection = category ? collection.filter(item => item.place === category) : collection;
