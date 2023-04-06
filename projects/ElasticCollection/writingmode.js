@@ -61,8 +61,15 @@ $(function() {
 
 const readingMode = document.getElementById("readingMode")
 readingMode.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
+})
+
+const about = document.getElementById("about")
+about.addEventListener('click', () => {
   window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html"
 })
+
+
 
 const remove = () => {
   const collectionList = document.getElementById('collection')
