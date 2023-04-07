@@ -433,10 +433,6 @@ yellow.addEventListener('click', () => {
 })
 
 
-
-
-
-
 // Show all items when page is first visited
 fetch("collection.json")
   .then((response) => response.json())

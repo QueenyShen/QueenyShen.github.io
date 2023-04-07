@@ -1,9 +1,13 @@
-const renderItems = (collection) => {
+const renderItems = (collection, filter) => {
     // The `ul` where the items will be inserted
     const collectionList = document.getElementById('collection')
 
     // Shuffle the collection array
-    const shuffledCollection = shuffleArray(collection);
+    // const shuffledCollection = shuffleArray(collection);
+    const filteredCollection = collection.filter(item => !filter || filter(item));
+
+    // Shuffle the filtered collection array
+    const shuffledCollection = shuffleArray(filteredCollection);
 
     // Loop through each item in the shuffled collection array
     shuffledCollection.forEach(item => {
@@ -56,18 +60,14 @@ function shuffleArray(array) {
     return array;
 }
 
+const show = (collection, filter) => {
+  // Render the filtered items
+  renderItems(collection, filter);
+}
 
 const remove = () => {
   const collectionList = document.getElementById('collection')
   collectionList.innerHTML = '' // Clear all items from the container
-}
-
-const show = (collection, category) => {
-  // Filter the collection based on the selected category
-  const filteredCollection = category ? collection.filter(item => item.place === category) : collection;
-
-  // Render the filtered items
-  renderItems(filteredCollection);
 }
 
 
@@ -81,46 +81,363 @@ btnAll.addEventListener('click', () => {
     })
 })
 
-const mineButton = document.getElementById("btnMine")
-mineButton.addEventListener('click', () => {
+//my books
+const mybook = (item) => {
+  return item.place =="My books";
+};
+
+const btnMine = document.getElementById("btnMine")
+btnMine.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
-      show(collection, "My books") // Show only items with "place" equal to "My books"
+      remove()
+      show(collection, mybook) // Show only items with "place" equal to "My books"
     })
 })
 
+//friends books
+const friendsBooks = (item) => {
+  return item.place =="Friends books";
+};
 
 const friendButton = document.getElementById("btnFriends")
 friendButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
-      show(collection, "Friends books")
+      remove() 
+      show(collection, friendsBooks)
     })
 })
+
+//library books
+const libraryBooks = (item) => {
+  return item.place =="School library";
+};
 
 const libraryButton = document.getElementById("btnLibrary")
 libraryButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
-      show(collection, "School library")
+      remove() 
+      show(collection, libraryBooks)
     })
 })
 
+
+//store books
+const storeBooks = (item) => {
+  return item.place =="Book store";
+};
 const storeButton = document.getElementById("btnStore")
 storeButton.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
-      remove() // Clear all items from the container
-      show(collection, "Book store")
+      remove() 
+      show(collection, storeBooks)
     })
 })
+
+//other filters 
+//1900s
+const publishedBefore2000 = (item) => {
+  return item.YearPublished < 2000;
+};
+
+const year1 = document.getElementById("year1")
+year1.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove();
+      show(collection, publishedBefore2000); 
+    })
+})
+//2000s
+const publishedAfter2000 = (item) => {
+  return item.YearPublished >2000 && item.YearPublished<2010;
+};
+
+const year2 = document.getElementById("year2")
+year2.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove();
+      show(collection, publishedAfter2000); 
+    })
+})
+
+//2010s
+const publishedAfter2010 = (item) => {
+  return item.YearPublished >=2010;
+};
+// Event listener for the "year1" div
+const year3 = document.getElementById("year3")
+year3.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove();
+      show(collection, publishedAfter2010); 
+    })
+})
+
+//art
+const artGenre = (item) => {
+  return item.Genre == 'Art';
+};
+const art = document.getElementById("art")
+art.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, artGenre) 
+    })
+})
+
+//design
+const designGenre = (item) => {
+  return item.Genre == 'Design';
+};
+const design = document.getElementById("design")
+design.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, designGenre) 
+    })
+})
+
+
+//fiction
+const ficitonGenre = (item) => {
+  return item.Genre == 'Fiction';
+};
+const fiction = document.getElementById("fiction")
+fiction.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, ficitonGenre) 
+    })
+})
+
+//nonfiction
+const nonFicitonGenre = (item) => {
+  return item.Genre == 'Non-Fiction';
+};
+const nonFiction = document.getElementById("nonFiction")
+nonFiction.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, nonFicitonGenre) 
+    })
+})
+
+//textbook
+const textBookGenre = (item) => {
+  return item.Genre == 'Textbook';
+};
+const textbook = document.getElementById("textbooks")
+textbook.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, textBookGenre) 
+    })
+})
+
+//beige
+const beigeColor = (item) => {
+  return item.Covercolor == 'beige';
+};
+const beige = document.getElementById("beige")
+beige.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, beigeColor) 
+    })
+})
+
+//black
+const blackColor = (item) => {
+  return item.Covercolor == 'black';
+};
+const black = document.getElementById("black")
+black.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, blackColor) 
+    })
+})
+
+//blue
+const blueColor = (item) => {
+  return item.Covercolor == 'blue';
+};
+const blue = document.getElementById("blue")
+blue.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, blueColor) 
+    })
+})
+
+//brown
+const brownColor = (item) => {
+  return item.Covercolor == 'brown';
+};
+const brown = document.getElementById("brown")
+brown.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, brownColor) 
+    })
+})
+
+
+//green
+const greenColor = (item) => {
+  return item.Covercolor == 'green';
+};
+const green = document.getElementById("green")
+green.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, greenColor) 
+    })
+})
+
+//grey
+const greyColor = (item) => {
+  return item.Covercolor == 'grey';
+};
+const grey = document.getElementById("grey")
+grey.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, greyColor) 
+    })
+})
+
+//orange
+const orangeColor = (item) => {
+  return item.Covercolor == 'orange';
+};
+const orange = document.getElementById("orange")
+orange.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, orangeColor) 
+    })
+})
+
+//pink
+const pinkColor = (item) => {
+  return item.Covercolor == 'pink';
+};
+const pink = document.getElementById("pink")
+pink.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, pinkColor) 
+    })
+})
+
+//purple
+const purpleColor = (item) => {
+  return item.Covercolor == 'purple';
+};
+const purple = document.getElementById("purple")
+purple.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, purpleColor) 
+    })
+})
+
+//red
+const redColor = (item) => {
+  return item.Covercolor == 'red';
+};
+const red = document.getElementById("red")
+red.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, redColor) 
+    })
+})
+
+//white
+const whiteColor = (item) => {
+  return item.Covercolor == 'white';
+};
+const white = document.getElementById("white")
+white.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, whiteColor) 
+    })
+})
+
+//yellow
+const yellowColor = (item) => {
+  return item.Covercolor == 'yellow';
+};
+const yellow = document.getElementById("yellow")
+yellow.addEventListener('click', () => {
+  fetch('collection.json')
+    .then(response => response.json())
+    .then(collection => {
+      remove()
+      show(collection, yellowColor) 
+    })
+})
+
+const wrap = document.getElementById("wrap");
+wrap.style.display = "none";
+
+const heading = document.getElementById("heading");
+heading.addEventListener("click", function() {
+  if (wrap.style.display === "none") {
+    wrap.style.display = "block";
+  } else {
+    wrap.style.display = "none";
+  }
+});
+
 
 // mobile version filter
 
@@ -134,43 +451,55 @@ mobileAll.addEventListener('click', () => {
     })
 })
 
+const mineMobile = (item) =>{
+  return item.place=="My books"
+};
 const  mobileMine = document.getElementById("mobileMine")
 mobileMine.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
       remove()
-      show(collection, "My books")
+      show(collection, mineMobile)
     })
 })
 
+const friendsMobile = (item) =>{
+  return item.place=="Friends books"
+};
 const  mobileFriends = document.getElementById("mobileFriends")
 mobileFriends.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
       remove()
-      show(collection, "Friends books")
+      show(collection, friendsMobile)
     })
 })
 
+const libraryMobile = (item) =>{
+  return item.place== "School library"
+};
 const  mobileLibrary = document.getElementById("mobileLibrary")
 mobileLibrary.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
       remove()
-      show(collection, "School library")
+      show(collection, libraryMobile)
     })
 })
 
+const storeMobile = (item) =>{
+  return item.place== "Book store"
+};
 const  mobileStore = document.getElementById("mobileStore")
 mobileStore.addEventListener('click', () => {
   fetch('collection.json')
     .then(response => response.json())
     .then(collection => {
       remove()
-      show(collection, "Book store")
+      show(collection, storeMobile)
     })
 })
 
@@ -182,6 +511,8 @@ fetch('collection.json')
 		// And passes the data to the function, above!
 		renderItems(collection)
 	})
+
+
 
 const writingMode = document.getElementById("writingMode")
 writingMode.addEventListener('click', () => {
@@ -235,6 +566,7 @@ switchInput.addEventListener('change', () => {
 });
 
 
+// mobile version
 let mybutton = document.getElementById("myBtn");
 const container = document.querySelector(".container");
 

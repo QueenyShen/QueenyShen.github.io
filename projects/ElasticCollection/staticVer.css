@@ -27,12 +27,27 @@ span{
 	font-size:1vw;
 }
 
-/* header css */
 .header-container{
 	color:#2C2C2C;;
 	margin-top: 1vw;
 	margin-bottom: 1vh;
 }
+.headingBox{
+	display: flex;
+	justify-content: center;
+}
+
+.title{
+	font-weight: 600;
+    text-align: center;
+    font-size: 2.1vw;
+    z-index: 999;
+}
+
+#heading:hover{
+	color:#888
+}
+
 
 .heading-container{
 	display: flex;
@@ -46,7 +61,80 @@ span{
 	padding-bottom: 0;
 	text-align: center;
 	font-size: 2.1vw;
+	cursor: pointer;
 }
+
+/* specific filters */
+#wrap {
+	display: flex;
+	z-index: 99999;
+	font-weight: 200;
+	
+  }
+  
+  .filter-container {
+	display: flex;
+	margin-top: 4vh;
+	justify-content: space-evenly;
+	flex-direction: column;
+	background-color: white;
+	padding: 2vh 2vw;
+	position: absolute;
+	z-index: 99999;
+	width: 30vw;
+	height: 40vh;
+	top:15vw;
+	left: 51.2vw;
+  transform: translate(-50%, -50%);
+  }
+  
+  .filterTitles {
+	top: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: left;
+  }
+  
+  .filterType {
+	display: flex;
+	flex-direction: column;
+	color: #2C2C2C;
+	font-size: 1vw;
+	letter-spacing: 0.2vw;
+	font-weight: 300;
+  }
+  
+  .filter {
+	display: flex;
+	top: 0;
+	padding-top: 0.5vw;
+	flex-direction: row;
+	text-align: left;
+	font-size: 0.9vw;
+	justify-content: space-between;
+  }
+.g{
+	margin-left:-1.8vw;
+}
+
+/* filter buttons */
+
+.button2{
+	border:none;
+	outline:none;
+	padding:0.3vh 0.1vw;
+	cursor: pointer;
+	z-index: 999;
+}
+
+.button2:hover{
+	background-color:#888;
+}
+
+
+
+/* header css */
 
 .menu-container{
 	display: flex;
@@ -302,13 +390,24 @@ span{
 
 /* small screen media query */
 @media only screen and (max-width: 800px){
-	.header-container{
+
+	.switch{
+		display:none;
+	}
+
+	.menu-container{
+		display: none;
+	}
+	 .header-container{
 		display: none;
 	}
 
-	.switch{
-		display: none;
-	}
+	.filter-container{display: none}
+
+	#wrap{
+		display:none;
+	  }
+
 	#mobile-heading{
 		position: relative;
 		font-weight: 600;
@@ -325,7 +424,7 @@ span{
 	flex-direction: row;
 	width:100vw;
 	gap:20.5vw;
-	margin-top:-0.5w;
+	margin-top:-0.5vw;
 	margin-bottom: 5vh;
 }
 
@@ -390,7 +489,6 @@ span{
 	span{
 		font-size: 3vw;
 	}
-
 }
 
 /* large screen media query */
