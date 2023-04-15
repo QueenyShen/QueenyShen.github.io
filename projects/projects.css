@@ -1,16 +1,82 @@
-body{
+/* body{
     background-color:#7fb5a9;
     font-family: 'Heebo', sans-serif;
     margin: 100px;
     padding: 50px;
+} */
+
+html{
+  align-items: center;
+  background-color: #31353D;
+  display: flex;
+  justify-content: center;
+  padding: 10vh;
 }
 
-h2,a{
-    color:#FEFFEF;
+#Wrapper{
+  align-items: center;
+  /* background-color: #EEEFF7;
+  display: flex;
+  height: 500px;
+  justify-content: center;
+  width: 1000px; */
 }
 
-ul{
-    list-style-type:square;
-    list-style-position: inside;
-    font-weight: 100;
+#Slideshow{
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
 }
+
+#Slider{
+  height: 80vh;
+  width: 80vw;
+  overflow: hidden;
+
+}
+
+#Slider img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+#Arrows{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  position: absolute;
+  width: 70vw;
+  z-index: 999;
+}
+
+#Arrows i{
+  background-color:red;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 50px;
+  width:50px;
+  padding: 15px;
+
+  transition: background-color .5s, color .5s;
+}
+
+#Arrows i:first-of-type{ 
+  padding-right: 20px;
+}
+
+#Arrows i:last-of-type{ 
+  padding-left: 20px;
+}
+
+#Arrows i:hover{
+  background-color:blue;
+}
+
+
