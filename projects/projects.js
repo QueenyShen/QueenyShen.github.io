@@ -23,3 +23,4 @@ images.forEach((image, index) => {
     window.location.href = pageUrls[index];
   });
 });
+
