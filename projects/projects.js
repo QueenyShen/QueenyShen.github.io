@@ -24,3 +24,8 @@ images.forEach((image, index) => {
   });
 });
 
+
+const writingMode = document.getElementById("goBack")
+writingMode.addEventListener('click', () => {
+  window.location.href = "https://QueenyShen.github.io/index.html"
+})

@@ -99,4 +99,14 @@ h1{
   background-color:white;
 }
 
+.back{
+  margin-top: 5vh;
+  font-size: 2vw;
+  text-align: center;
+  color:#9aff27;
+}
 
+.back:hover{
+  color:white;
+  cursor: pointer;
+}
