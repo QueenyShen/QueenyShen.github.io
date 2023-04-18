@@ -61,12 +61,12 @@ $(function() {
 
 const readingMode = document.getElementById("readingMode")
 readingMode.addEventListener('click', () => {
-  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html "
 })
 
 const about = document.getElementById("about")
 about.addEventListener('click', () => {
-  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/staticVer.html"
+  window.location.href = "https://QueenyShen.github.io/projects/ElasticCollection/about.html"
 })
 
 
