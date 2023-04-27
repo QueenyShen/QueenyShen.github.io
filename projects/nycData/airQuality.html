@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="airQuality.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.13.1/jquery-ui.min.js"></script>
+    <script defer src="airQuality.js"></script>
+    <title>NYC Neighborhoods Air Quality</title>
+</head>
+<body>
+    <section>
+        <div class="title">NYC <br> Neighborhoods <br> Air Quality 2009-2010</div>
+        <div id="container">
+            <svg width="500" height="110" id="rec1">
+                <rect width="400" height="100" style="fill:rgb(0,0,255);stroke-width:0;stroke:rgb(0,0,0)" />
+            </svg>
+            <svg width="400" height="200" id="rec2">
+                <rect width="350" height="200" style="fill:rgb(0,0,255);stroke-width:0;stroke:rgb(0,0,0)" />
+            </svg>
+            <svg width="200" height="300" id="rec3">
+                <rect width="200" height="250" style="fill:rgb(0,0,255);stroke-width:0;stroke:rgb(0,0,0)" />
+            </svg>
+            <svg width="200" height="200" id="rec4">
+                <rect width="150" height="200" style="fill:rgb(0,0,255);stroke-width:0;stroke:rgb(0,0,0)" />
+            </svg>
+            <svg width="200" height="200" id="rec5">
+                <rect width="180" height="200" style="fill:rgb(0,0,255);stroke-width:0;stroke:rgb(0,0,0)" />
+            </svg>
+        </div>
+    </section>
+    <section>
+        <div class="container reveal">
+          <div class="text-container">
+            <h1>NYC <br> Boroughs</h1>
+            <div class="text-box">
+              <h3>Manhattan</h3>
+            </div>
+            <div class="text-box2">
+              <h3>Queens</h3>
+            </div>
+            <div class="text-box3">
+              <h3>Bronx</h3>
+            </div> 
+            <div class="text-box4">
+                <h3>Brooklyn</h3>
+            </div> 
+            <div class="box5-container">
+                <a href="../nycData/statenIsland.html">
+                    <div class="text-box5">
+                        <h3>Staten Island</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="level-box">
+                <p>Level of Pollution</p>
+                <p>High</p>
+                <div class="meter"></div>
+                <p>Low</p>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
