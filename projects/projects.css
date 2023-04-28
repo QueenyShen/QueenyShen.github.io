@@ -8,7 +8,7 @@
 
 html{
   align-items: center;
-  background-color: #0dc874;
+  background-color: #4592dd;
   display: flex;
   justify-content: center;
   font-family: 'Sulphur Point', sans-serif;
@@ -16,12 +16,12 @@ html{
 
 h1{
   font-size: 5vw;
-  color:#9aff27;
+  color:#a7dfd8;
 }
 
 .titles{  
   text-align: center;
-  color:#9aff27;}
+  color:#a7dfd8;}
 
 #Wrapper{
   align-items: center;
@@ -78,7 +78,7 @@ h1{
 }
 
 #Arrows i{
-  background-color:#9aff27;
+  background-color:#a7dfd8;
   cursor: pointer;
   border-radius: 50%;
   height: 7vw;
@@ -103,7 +103,7 @@ h1{
   margin-top: 5vh;
   font-size: 2vw;
   text-align: center;
-  color:#9aff27;
+  color:#a7dfd8;
 }
 
 .back:hover{

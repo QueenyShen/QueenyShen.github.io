@@ -1,10 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Sulphur+Point:wght@300;400;700&display=swap');
+
 body{
-    background-color:#62be9d;
-    font-family: 'Heebo', sans-serif;
-    margin: 100px;
-    padding: 50px;
+    background-color:#0dc874;
+    font-family: 'Sulphur Point', sans-serif;
+}
+h1{
+    color:#9aff27;
+    font-size: 5vw;
+    padding-left: 5vw;
+    margin-bottom: 0;
 }
 
-h2{
-    color:#FEFFEF;
+h3{
+    margin:0;
+    text-align: center;
 }
+
+a{
+    text-decoration:none; 
+    color:inherit;
+    text-align: center;
+}
+
+.container{
+    margin-top: 0;
+    padding:5vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.box1-container{
+    margin-top: 1vw;
+    text-align: center;
+
+}
+
+.text-box1{
+    width:25vw;
+    height:5vh;
+    background-color: #24973b;
+    color:#9aff27;
+    padding:1vw;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box1:hover{
+    background-color: white;
+}
+
+.box2-container{
+    justify-content: center;
+    text-align: center;
+    padding:1vw;
+}
+
+.text-box2{
+    width:20vw;
+    height:25vh;
+    background-color: #24973b;
+    color:#9aff27;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box2:hover{
+    background-color: white;
+}
+
+.box3-container{
+    justify-content: center;
+    text-align: center;
+    padding:1vw;
+}
+
+.text-box3{
+    width:30vw;
+    height:20vh;
+    background-color: #24973b;
+    color:#9aff27;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-box3:hover{
+    background-color: white;
+}
+
+.box4-container{
+    justify-content: center;
+    text-align: center;
+    padding:1vw;
+}
+
+.text-box4{
+    width:20vw;
+    height:20vh;
+    background-color: #24973b;
+    color:#9aff27;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box4:hover{
+    background-color: white;
+}
+
+.box5-container{
+    justify-content: center;
+    text-align: center;
+    padding:1vw;
+}
+
+.text-box5{
+    width:15vw;
+    height:40vh;
+    background-color: #24973b;
+    color:#9aff27;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box5:hover{
+    background-color: white;
+}
+
+.back{
+    margin-top: -15vh;
+    font-size: 2vw;
+    text-align: center;
+    color:#9aff27;
+  }
+  
+  .back:hover{
+    color:white;
+    cursor: pointer;
+  }
