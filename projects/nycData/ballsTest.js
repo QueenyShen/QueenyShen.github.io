@@ -1,10 +1,9 @@
 
 //THIS CODE CREATES 2 DIFFERENT CANVASES. THE RECTANGLES ITSELF ARE THE CANVAS
-
-
 const s = (sketch) => {
     let numCircles = 10;
     let circles = [];
+    let backgroundColor = ('rgb(255,255,255)');
 
     sketch.setup = () => {
       sketch.createCanvas(300, 400);
@@ -48,7 +47,7 @@ const s = (sketch) => {
 
 
   const s2 = (sketch) => {
-    let numCircles = 10;
+    let numCircles = 5;
     let circles = [];
 
     sketch.setup = () => {
