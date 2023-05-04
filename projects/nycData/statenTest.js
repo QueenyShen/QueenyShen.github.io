@@ -14,7 +14,7 @@ let backgroundColor = 'rgb(255,255,255)';
 let backgroundColor2 = 'rgb(255,255,255)';
 let backgroundColor3 = 'rgb(255,255,255)';
 let backgroundColor4 = 'rgb(255,255,255)';
-let circles = [];
+let triangles = [];
 let triangleClicked = false;
 let data, url;
 let neighborhood = [];
@@ -352,8 +352,8 @@ function draw() {
 	noStroke();
 	triangle(100, 750, 60, 750, 80,700);
 
-	for (let i = 0; i < circles.length; i = i + 1) {
-		circles[i].display();
+	for (let i = 0; i < triangles.length; i = i + 1) {
+		triangles[i].display();
 	  }
 }
 
@@ -375,70 +375,73 @@ backgroundColor = "rgb(255,255,255)";
 }
 
 function mousePressed() {
-	// check if mouse is inside the rectangle
-	if (
-	  mouseX > rectX1 &&
-	  mouseX < rectX1 + rectWidth1 &&
-	  mouseY > rectY1 &&
-	  mouseY < rectY1 + rectHeight1
-	) {
-	  let myCircle = new Circle(mouseX, mouseY, random(10, 40), random(10, 40), random(255), random(255), random(255));
-	  circles.push(myCircle);
-	}
-
-	if (
-		mouseX > rectX2 &&
-		mouseX < rectX2 + rectWidth2 &&
-		mouseY > rectY2 &&
-		mouseY < rectY2 + rectHeight2
-	  ) {
-		let myCircle2 = new Circle(mouseX, mouseY, random(10, 40), random(10, 40), random(255), random(255), random(255));
-		circles.push(myCircle2);
-	  }
-
-	  if (
-		mouseX > rectX3 &&
-		mouseX < rectX3 + rectWidth3 &&
-		mouseY > rectY3 &&
-		mouseY < rectY3 + rectHeight3
-	  ) {
-		let myCircle3 = new Circle(mouseX, mouseY, random(10, 40), random(10, 40), random(255), random(255), random(255));
-		circles.push(myCircle3);
-	  }
-
-	  if (
-		mouseX > rectX4 &&
-		mouseX < rectX4 + rectWidth4 &&
-		mouseY > rectY4 &&
-		mouseY < rectY4 + rectHeight4
-	  ) {
-		let myCircle4 = new Circle(mouseX, mouseY, random(10, 40), random(10, 40), random(255), random(255), random(255));
-		circles.push(myCircle4);
-	  }
-
+  // check if mouse is inside the rectangle
+  if (
+    mouseX > rectX1 &&
+    mouseX < rectX1 + rectWidth1 &&
+    mouseY > rectY1 &&
+    mouseY < rectY1 + rectHeight1
+  ) {
+    let myTriangle = new Triangle(mouseX, mouseY, random(10, 40), random(10, 40), random(0), random(255), random(0));
+    triangles.push(myTriangle);
   }
-  
-  function keyPressed(){
-	circles.pop();
+
+  if (
+    mouseX > rectX2 &&
+    mouseX < rectX2 + rectWidth2 &&
+    mouseY > rectY2 &&
+    mouseY < rectY2 + rectHeight2
+  ) {
+    let myTriangle2 = new Triangle(mouseX, mouseY, random(10, 40), random(10, 40), random(0), random(255), random(0));
+    triangles.push(myTriangle2);
   }
-  
-  class Circle {
-	constructor(x, y, w, h, r, g, b) {
-	  this.x = x;
-	  this.y = y;
-	  this.w = w;
-	  this.h = h;
-	  // color for circle
-	  this.r = r; 
-	  this.g = g; 
-	  this.b = b; 
-	}
-  
-	display() {
-	  fill(this.r, this.g, this.b)
-	  ellipse(this.x, this.y, this.w, this.h);
-	}
+
+  if (
+    mouseX > rectX3 &&
+    mouseX < rectX3 + rectWidth3 &&
+    mouseY > rectY3 &&
+    mouseY < rectY3 + rectHeight3
+  ) {
+    let myTriangle3 = new Triangle(mouseX, mouseY, random(10, 40), random(10, 40), random(0), random(255), random(0));
+    triangles.push(myTriangle3);
   }
+
+  if (
+    mouseX > rectX4 &&
+    mouseX < rectX4 + rectWidth4 &&
+    mouseY > rectY4 &&
+    mouseY < rectY4 + rectHeight4
+  ) {
+    let myTriangle4 = new Triangle(mouseX, mouseY, random(10, 40), random(10, 40), random(0), random(255), random(0));
+    triangles.push(myTriangle4);
+  }
+}
+
+function keyPressed(){
+  triangles.pop();
+}
+
+class Triangle {
+  constructor(x, y, w, h, r, g, b) {
+    this.x = x;
+    this.y = y;
+    this.w = w;
+    this.h = h;
+    // color for triangle
+    this.r = r;
+    this.g = g;
+    this.b = b;
+  }
+
+  display() {
+    fill(this.r, this.g, this.b);
+    triangle(
+      this.x - this.w/2, this.y + this.h/2, // bottom left corner
+      this.x, this.y - this.h/2, // top corner
+      this.x + this.w/2, this.y + this.h/2 // bottom right corner
+    );
+  }
+}
   
 
 function windowResized(){
