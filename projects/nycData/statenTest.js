@@ -1,4 +1,3 @@
-
 	let numCircles1 = 93;
 	let numCircles2 = 91;
 	let numCircles3 = 92;
@@ -17,11 +16,33 @@
 	let backgroundColor4 = 'rgb(255,255,255)';
 	let circles = [];
 	let triangleClicked = false;
+	let data, url;
+	let neighborhood = [];
+	let value = [];
+	let dataIds = ["131737", "131739", "131738", "131740"];
+
+
+	function preload() {
+		url = "airQuality.json";
+		loadJSON(url, function(data) {
+		  processData(data);
+		});
+	  }
+	  
+	  function processData(data) {
+		for (let i = 0; i < data.length; i++) {
+		  if (dataIds.includes(Number(data[i].indicator_data_id))) {
+			neighborhood.push(data[i].geo_entity_name);
+			value.push(data[i].data_valuemessage);
+		  }
+		}
+	  }
+	  
 
 	function setup() {
 		var canvas = createCanvas(windowWidth, windowHeight);
 		canvas.parent('sketch-holder');
-
+		
 		// initialize the circles array for rectangle 1 with random positions and velocities
 		for (let i = 0; i < numCircles1; i++) {
 			let circle = {
@@ -169,6 +190,16 @@
 
 	function draw() {
 		changeBackground();
+
+		// for (let i = 0; i < data.length; i++) {
+		// 	if (dataIds.includes(Number(data[i].indicator_data_id))) {
+		// 	  neighborhood.push(data[i].geo_entity_name);
+		// 	  value.push(data[i].data_valuemessage);
+		// 	}
+		//   }
+
+		//   console.log(value); // log value array
+		//   console.log(neighborhood); // log neighborhood array
 		
 		if (
 			mouseX > 60 &&
@@ -212,8 +243,8 @@
 				textAlign(CENTER);
 				textSize(20);
 				fill(255, 255, 255);
-				text('Port Richmond', rectX1 + rectWidth1 / 2, rectY1 + rectHeight1 / 2);
-				text('9.3', rectX1 + rectWidth1 / 2, rectY1 + rectHeight1 / 2 + 30);
+				text(neighborhood[0], rectX1 + rectWidth1 / 2, rectY1 + rectHeight1 / 2);
+    			text(value[0], rectX1 + rectWidth1 / 2, rectY1 + rectHeight1 / 2 + 30);
 			} else {
 				let c = color(140, 140, 140);
 				fill(c);
@@ -244,8 +275,8 @@
 				textAlign(CENTER);
 				textSize(20);
 				fill(255, 255, 255);
-				text('Willowbrook', rectX2 + rectWidth2 / 2, rectY2 + rectHeight2 / 2);
-				text('9.1', rectX2 + rectWidth2 / 2, rectY2 + rectHeight2 / 2 + 30);
+				text(neighborhood[1], rectX2 + rectWidth2 / 2, rectY2 + rectHeight2 / 2);
+				text(value[1], rectX2 + rectWidth2 / 2, rectY2 + rectHeight2 / 2 + 30);
 			} else {
 				let c = color(170, 170, 170);
 				fill(c);
@@ -275,8 +306,8 @@
 				textAlign(CENTER);
 				textSize(20);
 				fill(255, 255, 255);
-				text('Stapleton - St. George', rectX3 + rectWidth3 / 2, rectY3 + rectHeight3 / 2);
-				text('9.2', rectX3 + rectWidth3 / 2, rectY3 + rectHeight3 / 2 + 30);
+				text(neighborhood[2], rectX3 + rectWidth3 / 2, rectY3 + rectHeight3 / 2);
+				text(value[2], rectX3 + rectWidth3 / 2, rectY3 + rectHeight3 / 2 + 30);
 			} else {
 				let c = color(200, 200, 200);
 				fill(c);
@@ -306,8 +337,8 @@
 				textAlign(CENTER);
 				textSize(20);
 				fill(255, 255, 255);
-				text('South Beach – Tottenville', rectX4 + rectWidth4 / 2, rectY4 + rectHeight4 / 2);
-				text('9', rectX4 + rectWidth4 / 2, rectY4 + rectHeight4 / 2 + 30);
+				text(neighborhood[3], rectX4 + rectWidth4 / 2, rectY4 + rectHeight4 / 2);
+				text(value[3], rectX4 + rectWidth4 / 2, rectY4 + rectHeight4 / 2 + 30);
 			} else {
 				let c = color(230,230,230);
 				fill(c);
@@ -418,3 +449,7 @@
 		}
 	  }
 	  
+
+function windowResized(){
+	resizeCanvas(windowWidth, windowHeight)
+}
