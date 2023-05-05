@@ -19,6 +19,7 @@ let triangleClicked = false;
 let data, url;
 let neighborhood = [];
 let convalue = [];
+//indicator ID for the data.
 let dataIds = [131737, 131739, 131738, 131740];
 
 
