@@ -34,6 +34,7 @@ let neighborhood = [];
 let convalue = [];
 //indicator ID for the data.
 let dataIds = [131603,131604,131605,131606,131607,131608,131609];
+let planting;
 
 let myFont;
 
@@ -61,6 +62,10 @@ function setup() {
 	textFont(myFont);
     textSize(24);
     textAlign(CENTER, CENTER);
+
+	soundFormats('mp3', 'ogg');
+  	planting = loadSound('sound/soil.mp3');
+
 
 	// initialize the circles array for rectangle 1 with random positions and velocities
 	for (let i = 0; i < numCircles1; i++) {
@@ -698,6 +703,7 @@ function mousePressed() {
 		circles1.pop();
 		numCircles1--;
 	  }
+	  planting.play(); // Play the soil sound
   }
 
   if (
@@ -713,6 +719,7 @@ function mousePressed() {
 		circles2.pop();
 		numCircles2--;
 	  }
+	  planting.play(); // Play the soil sound
   }
   
 
@@ -729,6 +736,7 @@ function mousePressed() {
 		circles3.pop();
 		numCircles3--;
 	  }
+	  planting.play(); // Play the soil sound
   } 
 
   if (
@@ -744,6 +752,7 @@ function mousePressed() {
 		circles4.pop();
 		numCircles4--;
 	  }
+	  planting.play(); // Play the soil sound
   } 
   if (
 	mouseX > rectX5 &&
@@ -758,6 +767,7 @@ function mousePressed() {
 	  circles5.pop();
 	  numCircles5--;
 	}
+	planting.play(); // Play the soil sound
   }
   if (
     mouseX > rectX6 &&
@@ -772,6 +782,7 @@ function mousePressed() {
       circles6.pop();
       numCircles6--;
     }
+	planting.play(); // Play the soil sound
   }
 
   if (
@@ -787,6 +798,7 @@ function mousePressed() {
 	  circles7.pop();
 	  numCircles7--;
 	}
+	planting.play(); // Play the soil sound
   }
   
   if (
@@ -802,6 +814,7 @@ function mousePressed() {
 	  circles8.pop();
 	  numCircles8--;
 	}
+	planting.play(); // Play the soil sound
   }
 
   if (
@@ -817,6 +830,7 @@ function mousePressed() {
 	  circles9.pop();
 	  numCircles9--;
 	}
+	planting.play(); // Play the soil sound
   }
 
   if (
@@ -833,6 +847,7 @@ function mousePressed() {
 	  numCircles10--;
 	}
   }
+  planting.play(); // Play the soil sound
   
 }
 
@@ -861,6 +876,8 @@ class Triangle {
     );
   }
 }
+
+
   
 
 function windowResized(){

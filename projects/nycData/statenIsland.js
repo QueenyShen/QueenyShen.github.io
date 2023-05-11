@@ -22,6 +22,7 @@ let neighborhood = [];
 let convalue = [];
 //indicator ID for the data.
 let dataIds = [131641, 131643, 131642, 131644];
+let planting;
 
 let myFont;
 
@@ -48,6 +49,9 @@ function setup() {
 	textFont(myFont);
     textSize(28);
     textAlign(CENTER, CENTER);
+
+	soundFormats('mp3', 'ogg');
+  	planting = loadSound('sound/soil.mp3');
 
 	// initialize the circles array for rectangle 1 with random positions and velocities
 	for (let i = 0; i < numCircles1; i++) {
@@ -406,6 +410,7 @@ function mousePressed() {
 		circles1.pop();
 		numCircles1--;
 	  }
+	  planting.play();
   }
 
   if (
@@ -421,6 +426,7 @@ function mousePressed() {
 		circles2.pop();
 		numCircles2--;
 	  }
+	  planting.play();
   }
   
 
@@ -437,6 +443,7 @@ function mousePressed() {
 		circles3.pop();
 		numCircles3--;
 	  }
+	  planting.play();
   } 
 
   if (
@@ -452,6 +459,7 @@ function mousePressed() {
 		circles4.pop();
 		numCircles4--;
 	  }
+	  planting.play();
   } 
 }
 

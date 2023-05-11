@@ -48,6 +48,7 @@ let convalue = [];
 let dataIds = [131621, 131622, 131623, 131624, 131625, 131626, 131627, 131628, 131629, 131630];
 
 let myFont;
+let planting;
 
 
 function preload() {
@@ -73,6 +74,9 @@ function setup() {
 	textFont(myFont);
     textSize(24);
     textAlign(CENTER, CENTER);
+
+	soundFormats('mp3', 'ogg');
+	planting = loadSound('sound/soil.mp3');
 
 	// initialize the circles array for rectangle 1 with random positions and velocities
 	for (let i = 0; i < numCircles1; i++) {
@@ -969,6 +973,7 @@ function mousePressed() {
 		circles1.pop();
 		numCircles1--;
 	  }
+	  planting.play();
   }
 
   if (
@@ -984,6 +989,7 @@ function mousePressed() {
 		circles2.pop();
 		numCircles2--;
 	  }
+	  planting.play();
   }
   
 
@@ -1000,6 +1006,7 @@ function mousePressed() {
 		circles3.pop();
 		numCircles3--;
 	  }
+	  planting.play();
   } 
 
   if (
@@ -1015,6 +1022,7 @@ function mousePressed() {
 		circles4.pop();
 		numCircles4--;
 	  }
+	  planting.play();
   } 
   if (
 	mouseX > rectX5 &&
@@ -1029,6 +1037,7 @@ function mousePressed() {
 	  circles5.pop();
 	  numCircles5--;
 	}
+	planting.play();
   }
   if (
     mouseX > rectX6 &&
@@ -1043,6 +1052,7 @@ function mousePressed() {
       circles6.pop();
       numCircles6--;
     }
+	planting.play();
   }
 
   if (
@@ -1058,6 +1068,7 @@ function mousePressed() {
 	  circles7.pop();
 	  numCircles7--;
 	}
+	planting.play();
   }
   
   if (
@@ -1073,6 +1084,7 @@ function mousePressed() {
 	  circles8.pop();
 	  numCircles8--;
 	}
+	planting.play();
   }
 
   if (
@@ -1088,6 +1100,7 @@ function mousePressed() {
 	  circles9.pop();
 	  numCircles9--;
 	}
+	planting.play();
   }
 
   if (
@@ -1103,6 +1116,7 @@ function mousePressed() {
 	  circles10.pop();
 	  numCircles10--;
 	}
+	planting.play();
   }
   
 }
