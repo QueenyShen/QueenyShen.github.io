@@ -7,11 +7,28 @@ html{
   font-style: normal;
 }
 
+section .container{
+  width:100vw;
+  height:100vh;
+  margin:100px;
+}
+
+section .frameContainer{
+  width:100vw;
+  height:100vh;
+}
 
 section #container{
     width:100%;
     height:100%;
+    
 }
+
+  iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+  }
 
 #rec1{
 position: absolute;
@@ -147,11 +164,6 @@ section .about p{
   width:80vw;
 }
 
-section .container{
-  width:100%;
-  height:100%;
-  margin: 100px;
-}
 section .title {
   color: white;
  font-size: 7vw;
