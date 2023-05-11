@@ -45,6 +45,9 @@ function preload() {
 function setup() {
 	var canvas = createCanvas(windowWidth, windowHeight);
 	canvas.parent('sketch-holder');
+	textFont(myFont);
+    textSize(28);
+    textAlign(CENTER, CENTER);
 
 	// initialize the circles array for rectangle 1 with random positions and velocities
 	for (let i = 0; i < numCircles1; i++) {
@@ -238,7 +241,7 @@ function draw() {
 	// check if hovering over rectangle and hide circles
 	if (hovering1) {
 		textAlign(CENTER);
-		textSize(20);
+		
 		fill(255, 255, 255);
 		text(neighborhood[0], rectX1 + rectWidth1 / 2, rectY1 + rectHeight1 / 2);
 		text(convalue[0], rectX1 + rectWidth1 / 2, rectY1 + rectHeight1 / 2 + 30);
@@ -272,7 +275,7 @@ function draw() {
 
 	if (hovering2) {
 		textAlign(CENTER);
-		textSize(20);
+		
 		fill(255, 255, 255);
 		text(neighborhood[1], rectX2 + rectWidth2 / 2, rectY2 + rectHeight2 / 2);
 		text(convalue[1], rectX2 + rectWidth2 / 2, rectY2 + rectHeight2 / 2 + 30);
@@ -303,7 +306,7 @@ function draw() {
 	rect(rectX3, rectY3, rectWidth3, rectHeight3);
 	if (hovering3) {
 		textAlign(CENTER);
-		textSize(20);
+		
 		fill(255, 255, 255);
 		text(neighborhood[2], rectX3 + rectWidth3 / 2, rectY3 + rectHeight3 / 2);
 		text(convalue[2], rectX3 + rectWidth3 / 2, rectY3 + rectHeight3 / 2 + 30);
@@ -335,7 +338,7 @@ rect(rectX4, rectY4, rectWidth4, rectHeight4);
 
 if (hovering4) {
 	textAlign(CENTER);
-	textSize(20);
+	
 	fill(255, 255, 255);
 	text(neighborhood[3], rectX4 + rectWidth4 / 2, rectY4 + rectHeight4 / 2);
 	text(convalue[3], rectX4 + rectWidth4 / 2, rectY4 + rectHeight4 / 2 + 30);
