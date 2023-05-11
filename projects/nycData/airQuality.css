@@ -1,10 +1,12 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url("https://use.typekit.net/axl0zpy.css");
 
 
 html{
-    background-color: black;
-    font-family: 'Open Sans', sans-serif;
+  font-family: bitcount-grid-single-line-ci, sans-serif;
+  font-weight: 100;
+  font-style: normal;
 }
+
 
 section #container{
     width:100%;
@@ -117,18 +119,48 @@ position: absolute;
     color: #ffffff;
     background: #000000;
   } 
+  section:nth-child(3){
+    color: #ffffff;
+    background: #000000;
+  } 
 
-  section .container{
-    margin: 100px;
-  }
-  section .title {
-    color: white;
-   font-size: 8vw;
-   position: absolute;
-   bottom: 2vw;
-   left: 2vw; 
-   z-index: 99;
+
+section .about{
+  width:100%;
+  height:100%;
+  padding-left:2vw;
+  padding-top:10vh;
 }
+
+section .about .heading{
+  top:2vh;
+  position:absolute;
+  font-size: 5vw;
+}
+section .about p{
+  margin: 15vh;
+  position: relative;
+  font-family: "bitcount-grid-single-circle", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 2vw;
+  width:80vw;
+}
+
+section .container{
+  width:100%;
+  height:100%;
+  margin: 100px;
+}
+section .title {
+  color: white;
+ font-size: 7vw;
+ position: absolute;
+ bottom: 2vw;
+ left: 2vw; 
+ z-index: 99;
+}
+
  
   section .text-container{
      position: relative;
@@ -142,11 +174,14 @@ position: absolute;
   }
 
   section .text-container .text-box{
+    font-family: "bitcount-grid-single-circle", sans-serif;
+  font-weight: 500;
+  font-style: normal;
     position:absolute;
     width:25vw;
     height:4vw;
     margin: 1vw;
-    padding: 1vw;
+    padding-left:0.5vw;
     margin-top:10vh;
     margin-left:30vw;
     background: #696969;
@@ -154,11 +189,14 @@ position: absolute;
   }
 
   section .text-container .text-box2{
+    font-family: "bitcount-grid-single-circle", sans-serif;
+  font-weight: 500;
+  font-style: normal;
     position:absolute;
     width:20vw;
     height:12vw;
     margin: 1vw;
-    padding: 1vw;
+    padding-right:0.5vw;
     margin-top:20vh;
     margin-left:42vw;
     background: #8f8f8f;
@@ -167,11 +205,14 @@ position: absolute;
   }
 
   section .text-container .text-box3{
+    font-family: "bitcount-grid-single-circle", sans-serif;
+  font-weight: 500;
+  font-style: normal;
     position:absolute;
     width:10vw;
     height:14vw;
     margin: 1vw;
-    padding: 1vw;
+    padding-right:0.5vw;
     margin-top:-8vh;
     margin-left:48.3vw;
     background: #878787;
@@ -181,11 +222,14 @@ position: absolute;
 
 
   section .text-container .text-box4{
+    font-family: "bitcount-grid-single-circle", sans-serif;
+  font-weight: 500;
+  font-style: normal;
     position:absolute;
     width:12vw;
     height:13vw;
     margin: 1vw;
-    padding: 1vw;
+    padding-right:0.5vw;
     margin-top:37.8vh;
     margin-left:36.8vw;
     background: #8a8a8a;
@@ -194,11 +238,14 @@ position: absolute;
   }
 
   section .text-container .text-box5{
+    font-family: "bitcount-grid-single-circle", sans-serif;
+  font-weight: 500;
+  font-style: normal;
     position:relative;
     width:11vw;
     height:16vw;
     margin: 1vw;
-    padding: 1vw;
+    padding-left:0.5vw;
     margin-top:40vh;
     margin-left:20vw;
     background: #a1a1a1;
@@ -207,6 +254,9 @@ position: absolute;
   }
   
   section .level-box{
+    font-family: "bitcount-grid-single-circle", sans-serif;
+  font-weight: 300;
+  font-style: normal;
     position: absolute;
     justify-content: center;
     top: 30vh;
@@ -216,7 +266,7 @@ position: absolute;
 
   section .level-box p{
     text-align: center;
-    padding:1vw;
+    padding:0.5vw;
     font-size: 0.9vw;
   }
 
