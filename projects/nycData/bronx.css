@@ -76,6 +76,10 @@ p{
     transform: rotate(-65deg);
   }
 
+.text-container .text-box:hover{
+    background-color: #3ead61;
+  }
+
 .text-container .text-box2{
     position:absolute;
     width:6vw;
@@ -127,4 +131,29 @@ p{
   background: #8a8a8a;
   transform: rotate(25deg);
   text-align: right;
+}
+
+/*manhattan*/
+.text-container .text-box:hover{
+  background-color: #3ead61;
+}
+
+/* queens */
+.text-container .text-box2:hover{
+  background-color: #405635;
+}
+
+/* bronx */
+.text-container .text-box3:hover{
+  background-color: #105605;
+}
+
+/* brooklyn */
+.text-container .text-box4:hover{
+  background-color: #208617;
+}
+
+/* staten island */
+.text-container .text-box5:hover{
+  background-color: #470A46;
 }
