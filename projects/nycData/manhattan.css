@@ -7,9 +7,10 @@ html{
   font-style: normal;
 }
 
-
 .text-container{
-    position: relative;
+  position: relative;
+  top: 17vh;
+  left: 0vw;
     margin-top:0;
     margin:1vw;
     z-index: 99;
@@ -38,10 +39,9 @@ h1{
  #sketch-holder2{
   width:100%;
   height:100%;
-    margin-top:-41vh;
-    margin-top:-42vh;
-    margin-left:-0.5vw;
-    z-index: -1;
+  margin-top:-11vh;
+  margin-left:-0.5vw;
+  z-index: -1;
  }
 
 .instruction{
@@ -51,7 +51,7 @@ h1{
   position:absolute;
   font-size:1.5vw;
   padding-left:2vw;
-  margin-top:25vh;
+  margin-top:55vh;
   color:#3ead61;
   z-index:99;
 }
@@ -115,16 +115,17 @@ p{
     text-align: right;
   }
 
-.text-container .text-box5{
-    position:relative;
-    width:2vw;
-    height:4vw;
+  .text-container .text-box5 {
+    position: absolute;
+    width: 2vw;
+    height: 4vw;
     margin: 1vw;
     padding: 1vw;
-    margin-top:20vh;
-    margin-left:1vw;
+    margin-top: 0vh;
+    margin-left: 1.1vw;
     background: #8a8a8a;
     transform: rotate(25deg);
     text-align: right;
   }
+  
   
