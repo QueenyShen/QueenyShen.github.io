@@ -129,10 +129,6 @@ p{
   }
   
   
-  /*manhattan*/
-.text-container .text-box:hover{
-  background-color: #3ead61;
-}
 
 /* queens */
 .text-container .text-box2:hover{
