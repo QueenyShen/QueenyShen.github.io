@@ -16,7 +16,8 @@ images.forEach((image, index) => {
     const pageUrls = [
       'https://harmonic-homepage.glitch.me',
       'https://queenyshen.github.io/Stories/Home/index.html',
-      'https://QueenyShen.github.io/projects/ElasticCollection/about.html'
+      'https://QueenyShen.github.io/projects/ElasticCollection/about.html',
+      'https://queenyshen.github.io/projects/nycData/airQuality.html'
     ];
     
     // Redirect to the corresponding page URL based on the index of the clicked image

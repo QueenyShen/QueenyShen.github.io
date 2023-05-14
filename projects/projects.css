@@ -71,7 +71,6 @@ h1{
   display: flex;
   justify-content: space-between;
   height: 5vh;
-  position: absolute;
   width: 80vw;
   left:10vw ;
   
@@ -101,7 +100,7 @@ h1{
 
 .back{
   margin-top: 5vh;
-  font-size: 2vw;
+  font-size: 3.5vw;
   text-align: center;
   color:#a7dfd8;
 }
@@ -109,4 +108,41 @@ h1{
 .back:hover{
   color:white;
   cursor: pointer;
+}
+
+@media (max-width: 500px) {
+  #Slider {
+    height: 24vh;
+    width: 60vw;
+    margin-top:15vh;
+    margin-bottom: 2vh;
+    overflow: hidden;
+  }
+
+  #Slider img{
+    background-position: center;
+    background-size: cover;
+    max-width:60vw;
+    max-height:24vh ;
+    overflow: hidden;
+
+}
+
+  #Wrapper {
+    max-width: 90vw;
+  }
+
+  #Arrows {
+    width: 90vw;
+    left: 5vw;
+    top: 35vh;
+  }
+
+  h1{
+    font-size: 10vw;
+  }
+
+  .back{
+    font-size: 6vw;
+  }
 }
